@@ -6,7 +6,7 @@
 
 Линк на конкрету иницијативу (Активан до 30.03.2025): https://elusluge.euprava.gov.rs/einitiative/#/initiatives/details/2
 
-[Скриншот примера са еуправе](Screenshot inicijative.png)
+[Скриншот примера са еуправе](https://github.com/Sobot/narodne-inicijative/blob/main/primer-narodne-inicijative/Screenshot%20inicijative.png)
 
 ### Назив иницијативе:
 Иницијатива за организовање јавне расправе о " Уклањање калдрме и жардињере у делу улице Крађорђеве и Јована Курсуле, уз успостављање Зоне 30 са уређеним и безбедним урбаним амбијентом"
@@ -15,10 +15,10 @@
 Прикупљање електронских потписа за организовање јавне расправе о "Уклањању калдрме и жардињере у делу улице Карађорђеве и Јована Курсуле, уз успостављање Зоне 30 са уређеним и безбедним урбаним амбијентом".
 
 Приложени документи:
- - [Obavestenje za organizovanje javne rasprave.pdf](Obavestenje za organizovanje javne rasprave.pdf)
- - [Zahtev za prikupljanje potpisa.pdf](Zahtev za prikupljanje potpisa.pdf)
- - [potvrda za prikupljanje e potpisa.pdf](potvrda za prikupljanje e potpisa.pdf)
- - [Potvrda narodna inicijativa za javnu raspravu.pdf](Potvrda narodna inicijativa za javnu raspravu.pdf])
+ - [Obavestenje za organizovanje javne rasprave.pdf](https://github.com/Sobot/narodne-inicijative/blob/main/primer-narodne-inicijative/Obavestenje%20za%20organizovanje%20javne%20rasprave.pdf)
+ - [Zahtev za prikupljanje potpisa.pdf](https://github.com/Sobot/narodne-inicijative/blob/main/primer-narodne-inicijative/Zahtev%20za%20prikupljanje%20potpisa.pdf)
+ - [potvrda za prikupljanje e potpisa.pdf](https://github.com/Sobot/narodne-inicijative/blob/main/primer-narodne-inicijative/potvrda%20za%20prikupljanje%20e%20potpisa.pdf)
+ - [Potvrda narodna inicijativa za javnu raspravu.pdf](https://github.com/Sobot/narodne-inicijative/blob/main/primer-narodne-inicijative/Potvrda%20narodna%20inicijativa%20za%20javnu%20raspravu.pdf)
 
 ### Пријемни број:
 
