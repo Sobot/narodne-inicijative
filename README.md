@@ -2,6 +2,8 @@
 
 Платформа за припремање документације, упутства за пријављивање и потписивање народних иницијатива
 
+*[Пример народне иницијативе](https://github.com/Sobot/narodne-inicijative/blob/main/primer-narodne-inicijative/README.md)*
+
 **Тренутно се налази у развојној фази.**
 [https://github.com/Sobot/narodne-inicijative](https://github.com/Sobot/narodne-inicijative)
 
