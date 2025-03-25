@@ -3,7 +3,7 @@
 Платформа за припремање документације, упутства за пријављивање и потписивање народних иницијатива
 
 **Тренутно се налази у развојној фази.**
-[https://github.com/Sobot/zbor-gradjana](https://github.com/Sobot/narodne-inicijative)
+[https://github.com/Sobot/narodne-inicijative](https://github.com/Sobot/narodne-inicijative)
 
 ## Функционалности
 
