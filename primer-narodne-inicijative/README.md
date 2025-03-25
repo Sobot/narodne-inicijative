@@ -5,7 +5,8 @@
 ## Иницијатива за организовање јавне расправе о " Уклањање калдрме и жардињере у делу улице Крађорђеве и Јована Курсуле, уз успостављање Зоне 30 са уређеним и безбедним урбаним амбијентом"
 
 Линк на конкрету иницијативу (Активан до 30.03.2025): https://elusluge.euprava.gov.rs/einitiative/#/initiatives/details/2
-Скриншот 
+
+[Скриншот примера са еуправе](Screenshot inicijative.png)
 
 ### Назив иницијативе:
 Иницијатива за организовање јавне расправе о " Уклањање калдрме и жардињере у делу улице Крађорђеве и Јована Курсуле, уз успостављање Зоне 30 са уређеним и безбедним урбаним амбијентом"
@@ -14,10 +15,10 @@
 Прикупљање електронских потписа за организовање јавне расправе о "Уклањању калдрме и жардињере у делу улице Карађорђеве и Јована Курсуле, уз успостављање Зоне 30 са уређеним и безбедним урбаним амбијентом".
 
 Приложени документи:
- - Obavestenje za organizovanje javne rasprave.pdf
- - Zahtev za prikupljanje potpisa.pdf
- - potvrda za prikupljanje e potpisa.pdf
- - Potvrda narodna inicijativa za javnu raspravu.pdf
+ - [Obavestenje za organizovanje javne rasprave.pdf](Obavestenje za organizovanje javne rasprave.pdf)
+ - [Zahtev za prikupljanje potpisa.pdf](Zahtev za prikupljanje potpisa.pdf)
+ - [potvrda za prikupljanje e potpisa.pdf](potvrda za prikupljanje e potpisa.pdf)
+ - [Potvrda narodna inicijativa za javnu raspravu.pdf](Potvrda narodna inicijativa za javnu raspravu.pdf])
 
 ### Пријемни број:
 
