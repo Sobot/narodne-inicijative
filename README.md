@@ -19,6 +19,7 @@
 ## Законски оквир
 
 - [Закон о референдуму и народној иницијативи](https://pravno-informacioni-sistem.rs/eli/rep/sgrs/skupstina/zakon/2021/111/1/reg)
+
    ```
     Слобода изјашњавања и слобода учешћа
 
