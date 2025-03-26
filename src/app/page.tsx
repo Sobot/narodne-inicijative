@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
-import { Container, Box, Stepper, Step, StepLabel, Paper, Typography, Button, Stack, IconButton } from '@mui/material';
+import { Container, Box, Stepper, Step, StepLabel, Paper, Typography, Button, Stack, IconButton, useTheme, useMediaQuery } from '@mui/material';
 import ShareIcon from '@mui/icons-material/Share';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
@@ -37,6 +37,8 @@ const steps = [
 ];
 
 export default function Home() {
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
   const [activeStep, setActiveStep] = useState<StepType>(1);
   const [isCompleted, setIsCompleted] = useState(false);
   const [initiativeData, setInitiativeData] = useState<InitiativeData>({
@@ -169,7 +171,31 @@ export default function Home() {
           </Typography>
           
           <Paper sx={{ p: 3, mb: 4 }}>
-            <Stepper activeStep={activeStep - 1} alternativeLabel>
+            <Stepper 
+              activeStep={activeStep - 1} 
+              alternativeLabel={!isMobile}
+              orientation={isMobile ? 'vertical' : 'horizontal'}
+              sx={{
+                '& .MuiStepLabel-label': {
+                  fontSize: isMobile ? '0.875rem' : '1rem',
+                  whiteSpace: 'normal',
+                  textAlign: 'center',
+                  lineHeight: 1.2,
+                },
+                '& .MuiStepLabel-labelContainer': {
+                  maxWidth: isMobile ? '100%' : '120px',
+                },
+                '& .MuiStepLabel-iconContainer': {
+                  paddingRight: isMobile ? 1 : 0,
+                },
+                '& .MuiStepConnector-root': {
+                  display: isMobile ? 'none' : 'block',
+                },
+                '& .MuiStep-root': {
+                  padding: isMobile ? '8px 0' : '0',
+                }
+              }}
+            >
               {steps.map((label) => (
                 <Step key={label}>
                   <StepLabel>{label}</StepLabel>
