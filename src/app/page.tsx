@@ -3,7 +3,12 @@
 import { useState } from 'react';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
-import { Container, Box, Stepper, Step, StepLabel, Paper, Typography, Button, Stack } from '@mui/material';
+import { Container, Box, Stepper, Step, StepLabel, Paper, Typography, Button, Stack, IconButton } from '@mui/material';
+import ShareIcon from '@mui/icons-material/Share';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import { InitiativeData, Step as StepType } from '@/types';
 import StepOne from '@/components/StepOne';
 import StepTwo from '@/components/StepTwo';
@@ -33,6 +38,7 @@ const steps = [
 
 export default function Home() {
   const [activeStep, setActiveStep] = useState<StepType>(1);
+  const [isCompleted, setIsCompleted] = useState(false);
   const [initiativeData, setInitiativeData] = useState<InitiativeData>({
     name: '',
     description: '',
@@ -50,11 +56,95 @@ export default function Home() {
   };
 
   const handleFinish = () => {
-    // Here you could add any final actions needed
-    console.log('Initiative process completed');
+    setIsCompleted(true);
+  };
+
+  const handleShare = (platform: string) => {
+    const url = encodeURIComponent(window.location.href);
+    const text = encodeURIComponent('Помозите нам да олакшамо процес подношења националних иницијатива!');
+    
+    let shareUrl = '';
+    switch (platform) {
+      case 'facebook':
+        shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${url}`;
+        break;
+      case 'twitter':
+        shareUrl = `https://twitter.com/intent/tweet?url=${url}&text=${text}`;
+        break;
+      case 'linkedin':
+        shareUrl = `https://www.linkedin.com/shareArticle?mini=true&url=${url}&title=${text}`;
+        break;
+      case 'whatsapp':
+        shareUrl = `https://wa.me/?text=${text}%20${url}`;
+        break;
+    }
+    
+    window.open(shareUrl, '_blank', 'width=600,height=400');
   };
 
   const renderStep = () => {
+    if (isCompleted) {
+      return (
+        <Box sx={{ textAlign: 'center', py: 4 }}>
+          <Typography variant="h4" gutterBottom>
+            Хвала вам!
+          </Typography>
+          <Typography variant="body1" paragraph>
+            Успешно сте завршили процес подношења националне иницијативе.
+          </Typography>
+          <Typography variant="h6" gutterBottom sx={{ mt: 4 }}>
+            Поделите ову веб апликацију са другима
+          </Typography>
+          <Stack direction="row" spacing={2} justifyContent="center" sx={{ mt: 2 }}>
+            <IconButton 
+              color="primary" 
+              onClick={() => handleShare('facebook')}
+              sx={{ 
+                backgroundColor: '#1877f2',
+                color: 'white',
+                '&:hover': { backgroundColor: '#166fe5' }
+              }}
+            >
+              <FacebookIcon />
+            </IconButton>
+            <IconButton 
+              color="primary" 
+              onClick={() => handleShare('twitter')}
+              sx={{ 
+                backgroundColor: '#1da1f2',
+                color: 'white',
+                '&:hover': { backgroundColor: '#1a91da' }
+              }}
+            >
+              <TwitterIcon />
+            </IconButton>
+            <IconButton 
+              color="primary" 
+              onClick={() => handleShare('linkedin')}
+              sx={{ 
+                backgroundColor: '#0077b5',
+                color: 'white',
+                '&:hover': { backgroundColor: '#0066a1' }
+              }}
+            >
+              <LinkedInIcon />
+            </IconButton>
+            <IconButton 
+              color="primary" 
+              onClick={() => handleShare('whatsapp')}
+              sx={{ 
+                backgroundColor: '#25d366',
+                color: 'white',
+                '&:hover': { backgroundColor: '#22c55e' }
+              }}
+            >
+              <WhatsAppIcon />
+            </IconButton>
+          </Stack>
+        </Box>
+      );
+    }
+
     switch (activeStep) {
       case 1:
         return <StepOne onNext={handleNext} initialData={initiativeData} />;
@@ -86,41 +176,43 @@ export default function Home() {
                 </Step>
               ))}
             </Stepper>
+
+            {!isCompleted && (
+              <Stack direction="row" spacing={2} justifyContent="flex-end" sx={{ mt: 4 }}>
+                {activeStep > 1 && (
+                  <Button
+                    variant="outlined"
+                    onClick={handleBack}
+                    sx={{ minWidth: 120 }}
+                  >
+                    Назад
+                  </Button>
+                )}
+                
+                {activeStep < 4 ? (
+                  <Button
+                    variant="contained"
+                    onClick={() => handleNext(initiativeData)}
+                    sx={{ minWidth: 120 }}
+                  >
+                    Даље
+                  </Button>
+                ) : (
+                  <Button
+                    variant="contained"
+                    color="success"
+                    onClick={handleFinish}
+                    sx={{ minWidth: 120 }}
+                  >
+                    Заврши
+                  </Button>
+                )}
+              </Stack>
+            )}
           </Paper>
 
           <Paper sx={{ p: 3 }}>
             {renderStep()}
-            
-            <Stack direction="row" spacing={2} justifyContent="flex-end" sx={{ mt: 4 }}>
-              {activeStep > 1 && (
-                <Button
-                  variant="outlined"
-                  onClick={handleBack}
-                  sx={{ minWidth: 120 }}
-                >
-                  Назад
-                </Button>
-              )}
-              
-              {activeStep < 4 ? (
-                <Button
-                  variant="contained"
-                  onClick={() => handleNext(initiativeData)}
-                  sx={{ minWidth: 120 }}
-                >
-                  Даље
-                </Button>
-              ) : (
-                <Button
-                  variant="contained"
-                  color="success"
-                  onClick={handleFinish}
-                  sx={{ minWidth: 120 }}
-                >
-                  Заврши
-                </Button>
-              )}
-            </Stack>
           </Paper>
         </Box>
       </Container>
