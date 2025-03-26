@@ -1,6 +1,7 @@
 'use client';
 
-import { Box, Typography, Paper, TextField, Button, Grid } from '@mui/material';
+import { Box, Typography, Paper, Button } from '@mui/material';
+import EmailIcon from '@mui/icons-material/Email';
 import { InitiativeData } from '@/types';
 import { format } from 'date-fns';
 import { sr } from 'date-fns/locale';
@@ -12,28 +13,31 @@ interface StepFourProps {
 export default function StepFour({ initiativeData }: StepFourProps) {
   const today = format(new Date(), 'dd.MM.yyyy.', { locale: sr });
   
-  const emailSubject = `Национална иницијатива: ${initiativeData.name}`;
-  
+  const committeeMembersList = initiativeData.committeeMembers.length > 0
+    ? initiativeData.committeeMembers
+        .map((member, index) => `${index + 1}. ${member.fullName}, ${member.address}`)
+        .join('\n')
+    : 'Нема унетих чланова иницијативног одбора';
+
+  const emailSubject = `Предлог за организовање јавне расправе - ${initiativeData?.name}`;
   const emailBody = `
 Поштовани,
 
-У прилогу вам шаљем документе националне иницијативе "${initiativeData.name}" за општину ${initiativeData.municipality}.
+У прилогу вам достављам предлог за организовање јавне расправе.
 
-Документи садрже:
-1. Обавештење о предлогу за организовање јавне расправе
-2. Захтев за прикупљање потписа
+Назив иницијативе: ${initiativeData.name}
+Општина: ${initiativeData.municipality}
+Датум: ${today}
 
-Сви документи су дигитално потписани од стране чланова иницијативног одбора.
+Опис иницијативе:
+${initiativeData.description}
 
 Иницијативни одбор сачињавају:
-${initiativeData.committeeMembers.map((member, index) => `${index + 1}. ${member.fullName}, ${member.address}`).join('\n')}
-
-Датум подношења: ${today}
+${committeeMembersList}
 
 С поштовањем,
-${initiativeData.committeeMembers[0].fullName}
-Председник иницијативног одбора
-`;
+${initiativeData.committeeMembers.length > 0 ? initiativeData.committeeMembers[0].fullName : 'Предлагач'}
+  `.trim();
 
   const handleCopyEmail = () => {
     const emailContent = `mailto:?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
@@ -46,67 +50,39 @@ ${initiativeData.committeeMembers[0].fullName}
         Слање иницијативе општини
       </Typography>
 
-      <Paper sx={{ p: 3 }}>
-        <Typography variant="body1" paragraph>
-          Након што сте прикупили све потписе, потребно је послати документе општини.
-          Ево како то можете урадити:
+      <Paper sx={{ p: 3, mb: 3, backgroundColor: '#fafafa' }}>
+        <Typography variant="subtitle1" gutterBottom>
+          Предмет е-поште:
+        </Typography>
+        <Typography variant="body1" sx={{ mb: 2 }}>
+          {emailSubject}
         </Typography>
 
-        <Typography variant="body1" paragraph>
-          1. Прво пронађите контакт информације општине {initiativeData.municipality}:
+        <Typography variant="subtitle1" gutterBottom>
+          Садржај е-поште:
+        </Typography>
+        <Typography 
+          variant="body1" 
+          sx={{ 
+            whiteSpace: 'pre-wrap',
+            mb: 2,
+            backgroundColor: 'white',
+            p: 2,
+            borderRadius: 1,
+            border: '1px solid #e0e0e0'
+          }}
+        >
+          {emailBody}
         </Typography>
 
-        <Typography variant="body1" paragraph>
-          - Посетите званичну веб страницу општине
-          - Потражите е-пошту председника општине или контакт центар
-          - Ако не можете пронаћи контакт информације, можете их потражити на Google-у
-        </Typography>
-
-        <Typography variant="body1" paragraph>
-          2. Припремите е-пошту са следећим садржајем:
-        </Typography>
-
-        <Grid container spacing={2}>
-          <Grid item xs={12}>
-            <TextField
-              fullWidth
-              label="Предмет"
-              value={emailSubject}
-              InputProps={{
-                readOnly: true,
-              }}
-            />
-          </Grid>
-
-          <Grid item xs={12}>
-            <TextField
-              fullWidth
-              multiline
-              rows={10}
-              label="Садржај"
-              value={emailBody}
-              InputProps={{
-                readOnly: true,
-              }}
-            />
-          </Grid>
-
-          <Grid item xs={12}>
-            <Button
-              variant="contained"
-              color="primary"
-              onClick={handleCopyEmail}
-              fullWidth
-            >
-              Отвори у е-поштовском клијенту
-            </Button>
-          </Grid>
-        </Grid>
-
-        <Typography variant="body1" color="error" sx={{ mt: 3 }}>
-          Напомена: Уверите се да су сви документи дигитално потписани пре слања.
-          Такође, сачувајте копију послатих докумената за ваше архивирање.
-        </Typography>
+        <Button
+          variant="contained"
+          startIcon={<EmailIcon />}
+          onClick={handleCopyEmail}
+          fullWidth
+        >
+          Отвори у поштанском клијенту
+        </Button>
       </Paper>
     </Box>
   );
