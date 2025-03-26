@@ -1,12 +1,11 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Box, Typography, Button, Paper, Grid, Divider } from '@mui/material';
 import DownloadIcon from '@mui/icons-material/Download';
 import { InitiativeData } from '@/types';
 import { format } from 'date-fns';
 import { sr } from 'date-fns/locale';
-import html2pdf, { Options } from 'html2pdf.js';
 
 interface StepTwoProps {
   initiativeData: InitiativeData;
@@ -14,6 +13,11 @@ interface StepTwoProps {
 
 export default function StepTwo({ initiativeData }: StepTwoProps) {
   const [isGenerating, setIsGenerating] = useState(false);
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
 
   const generateDocument1 = () => {
     const today = format(new Date(), 'dd.MM.yyyy.', { locale: sr });
@@ -81,19 +85,22 @@ export default function StepTwo({ initiativeData }: StepTwoProps) {
   };
 
   const downloadDocument = async (content: string, filename: string) => {
+    if (!isClient) return;
+    
     setIsGenerating(true);
     let tempElement: HTMLDivElement | null = null;
     try {
+      const html2pdf = (await import('html2pdf.js')).default;
       tempElement = document.createElement('div');
       tempElement.innerHTML = content;
       document.body.appendChild(tempElement);
 
-      const opt: Options = {
+      const opt = {
         margin: 1,
         filename: filename,
         image: { type: 'jpeg', quality: 0.98 },
         html2canvas: { scale: 2 },
-        jsPDF: { unit: 'in', format: 'a4', orientation: 'portrait' }
+        jsPDF: { unit: 'in', format: 'a4', orientation: 'portrait' as const }
       };
 
       await html2pdf().set(opt).from(tempElement).save();
@@ -149,7 +156,7 @@ export default function StepTwo({ initiativeData }: StepTwoProps) {
                 variant="contained"
                 startIcon={<DownloadIcon />}
                 onClick={() => downloadDocument(generateDocument1(), 'obavestenje.pdf')}
-                disabled={isGenerating}
+                disabled={isGenerating || !isClient}
               >
                 Преузми PDF
               </Button>
@@ -192,7 +199,7 @@ export default function StepTwo({ initiativeData }: StepTwoProps) {
                 variant="contained"
                 startIcon={<DownloadIcon />}
                 onClick={() => downloadDocument(generateDocument2(), 'zahtev.pdf')}
-                disabled={isGenerating}
+                disabled={isGenerating || !isClient}
               >
                 Преузми PDF
               </Button>
