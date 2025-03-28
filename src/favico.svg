@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+    <!-- Blue circular background -->
+    <circle cx="32" cy="32" r="32" fill="#0D47A1"/>
+    <!-- White document icon -->
+    <rect x="16" y="16" width="32" height="32" fill="#FFFFFF" rx="4" ry="4"/>
+    <!-- Signature lines -->
+    <path d="M20 28 H44" stroke="#0D47A1" stroke-width="2" stroke-linecap="round"/>
+    <path d="M20 34 H44" stroke="#0D47A1" stroke-width="2" stroke-linecap="round"/>
+    <path d="M20 40 H44" stroke="#0D47A1" stroke-width="2" stroke-linecap="round"/>
+</svg>

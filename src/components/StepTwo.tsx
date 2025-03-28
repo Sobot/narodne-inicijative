@@ -6,6 +6,7 @@ import DownloadIcon from '@mui/icons-material/Download';
 import { InitiativeData } from '@/types';
 import { format } from 'date-fns';
 import { sr } from 'date-fns/locale';
+import {Options} from "html2pdf.js";
 
 interface StepTwoProps {
   initiativeData: InitiativeData;
@@ -46,8 +47,19 @@ export default function StepTwo({ initiativeData }: StepTwoProps) {
       .join('\n');
 
     return `
-      <div style="font-family: 'Times New Roman', serif; padding: 20px;">
-        <h2 style="text-align: center;">ЗАХТЕВ ЗА ПРИКУПЉАЊЕ ПОТПИСА</h2>
+      <div style="font-family: 'Times New Roman', serif; padding: 20px;">        
+        <h2 style="text-align: center;">Захтев за прикупљање електронских потписа подршке за организовање јавне расправе о „${initiativeData.name}"</h2>
+        <h2>Председнику скупштине општине ${initiativeData.municipality}</h2> 
+        <p>Поштовани,</p>
+        <p>На основу Закона о локалној самоуправи, Закона о референдуму и народној иницијативи и Уредби о електронској народној иницијативи, Иницијативи одбор доставља захтев за прикупљање електронских потписа подршке за организовање јавне расправе о „${initiativeData.name}. 
+        <p>Дана  ${today}, Иницијативни одбор поднео је предлог председнику скупштине општине ${initiativeData.municipality} за прикупљање потписа за организовање поменуте јавне расправе. Председник скупштине није поступио у року од 15 дана, па се, у складу са чланом 60. Закона о референдуму и народној иницијативи, сматра да је предлог верификован. 
+Иницијативни одбор именује Зорана Стаменковића, са пребивалиштем у улици Милоша Обилића бр. 4, Ћуприја, као овлашћено лице за поступање у својству корисника на Порталу еУправа. 
+Молимо Вас да у складу са чланом 4. Уредбе о електронској народној, без одлагања, омогућите покретање поступка прикупљања електронских потписа на Порталу еУправа. 
+У Ћуприји, 
+27.12.2024 
+Иницијативни одбор:
+        
+        
         <p>Општина: ${initiativeData.municipality}</p>
         <p>Датум: ${today}</p>
         <p>Назив иницијативе: ${initiativeData.name}</p>
@@ -86,7 +98,7 @@ export default function StepTwo({ initiativeData }: StepTwoProps) {
 
   const downloadDocument = async (content: string, filename: string) => {
     if (!isClient) return;
-    
+
     setIsGenerating(true);
     let tempElement: HTMLDivElement | null = null;
     try {
@@ -95,7 +107,7 @@ export default function StepTwo({ initiativeData }: StepTwoProps) {
       tempElement.innerHTML = content;
       document.body.appendChild(tempElement);
 
-      const opt = {
+      const opt:Options = {
         margin: 1,
         filename: filename,
         image: { type: 'jpeg', quality: 0.98 },
@@ -122,8 +134,8 @@ export default function StepTwo({ initiativeData }: StepTwoProps) {
 
       <Grid container spacing={3}>
         <Grid item xs={12}>
-          <Paper 
-            sx={{ 
+          <Paper
+            sx={{
               p: 3,
               display: 'flex',
               flexDirection: 'column',
@@ -134,10 +146,10 @@ export default function StepTwo({ initiativeData }: StepTwoProps) {
             <Typography variant="subtitle1" gutterBottom>
               Документ 1: Обавештење о предлогу за организовање јавне расправе
             </Typography>
-            
-            <Paper 
+
+            <Paper
               elevation={3}
-              sx={{ 
+              sx={{
                 p: 3,
                 backgroundColor: 'white',
                 minHeight: '400px',
@@ -165,8 +177,8 @@ export default function StepTwo({ initiativeData }: StepTwoProps) {
         </Grid>
 
         <Grid item xs={12}>
-          <Paper 
-            sx={{ 
+          <Paper
+            sx={{
               p: 3,
               display: 'flex',
               flexDirection: 'column',
@@ -177,10 +189,10 @@ export default function StepTwo({ initiativeData }: StepTwoProps) {
             <Typography variant="subtitle1" gutterBottom>
               Документ 2: Захтев за прикупљање потписа
             </Typography>
-            
-            <Paper 
+
+            <Paper
               elevation={3}
-              sx={{ 
+              sx={{
                 p: 3,
                 backgroundColor: 'white',
                 minHeight: '400px',
@@ -209,4 +221,4 @@ export default function StepTwo({ initiativeData }: StepTwoProps) {
       </Grid>
     </Box>
   );
-} 
+}
