@@ -44,9 +44,15 @@ export default function StepTwo({ initiativeData }: StepTwoProps) {
 
   const generateDocument2 = () => {
     const today = format(new Date(), 'dd.MM.yyyy.', { locale: sr });
+    const fifteenDaysFromNow = format(new Date(Date.now() + 15 * 24 * 60 * 60 * 1000), 'dd.MM.yyyy.', { locale: sr });
     const committeeMembersList = initiativeData.committeeMembers
       .map((member, index) => `${index + 1}. ${member.fullName}, ${member.address}`)
       .join('\n');
+
+    const firstCommitteeMember = initiativeData.committeeMembers[0];
+    const authorizedPersonText = firstCommitteeMember 
+      ? `${firstCommitteeMember.fullName}, са пребивалиштем у ${firstCommitteeMember.address}`
+      : 'одборник који ће бити одређен';
 
     return `
       <div style="font-family: 'Times New Roman', serif; padding: 20px;">        
@@ -55,9 +61,9 @@ export default function StepTwo({ initiativeData }: StepTwoProps) {
         <p>Поштовани,</p>
         <p>На основу Закона о локалној самоуправи, Закона о референдуму и народној иницијативи и Уредби о електронској народној иницијативи, Иницијативи одбор доставља захтев за прикупљање електронских потписа подршке за организовање јавне расправе о " ${initiativeData.name}. 
         <p>Дана ${today}, Иницијативни одбор поднео је предлог председнику скупштине општине ${initiativeData.municipality} за прикупљање потписа за организовање поменуте јавне расправе. Председник скупштине није поступио у року од 15 дана, па се, у складу са чланом 60. Закона о референдуму и народној иницијативи, сматра да је предлог верификован.</p>
-        <p>Иницијативни одбор именује Зорана Стаменковића, са пребивалиштем у улици Милоша Обилића бр. 4, Ћуприја, као овлашћено лице за поступање у својству корисника на Порталу еУправа. 
+        <p>Иницијативни одбор именује ${authorizedPersonText}, као овлашћено лице за поступање у својству корисника на Порталу еУправа. 
         <p>Молимо Вас да у складу са чланом 4. Уредбе о електронској народној, без одлагања, омогућите покретање поступка прикупљања електронских потписа на Порталу еУправа.</p>
-        <p>У Ћуприји, 27.12.2024 </p>
+        <p>У ${initiativeData.municipality}, ${fifteenDaysFromNow}</p>
         <p>Иницијативни одбор:</p>
         <pre style="white-space: pre-wrap;">${committeeMembersList}</pre>
       </div>
