@@ -30,10 +30,12 @@ export default function StepTwo({ initiativeData }: StepTwoProps) {
       <div style="font-family: 'Times New Roman', serif; padding: 20px;">
         <h2 style="text-align: center;">ОБАВЕШТЕЊЕ О ПРЕДЛОГУ ЗА ОРГАНИЗОВАЊЕ ЈАВНЕ РАСПРАВЕ</h2>
         <p>Општина: ${initiativeData.municipality}</p>
+        <p></p>
         <p>Датум: ${today}</p>
         <p>Назив иницијативе: ${initiativeData.name}</p>
         <p>Опис иницијативе:</p>
         <div style="white-space: pre-line;">${initiativeData.description}</div>
+        <p></p>
         <p>Иницијативни одбор сачињавају:</p>
         <pre style="white-space: pre-wrap;">${committeeMembersList}</pre>
       </div>
