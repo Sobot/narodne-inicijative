@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useForm, useFieldArray } from 'react-hook-form';
 import {
   Box,
@@ -11,6 +11,10 @@ import {
   IconButton,
   Grid,
   Alert,
+  Dialog,
+  DialogTitle,
+  DialogContent,
+  DialogActions,
 } from '@mui/material';
 import DeleteIcon from '@mui/icons-material/Delete';
 import AddIcon from '@mui/icons-material/Add';
@@ -29,8 +33,10 @@ interface StepOneProps {
 
 export default function StepOne({ onNext, initialData }: StepOneProps) {
   const [error, setError] = useState<string>('');
+  const [showLoadDialog, setShowLoadDialog] = useState(false);
+  const [savedData, setSavedData] = useState<InitiativeData | null>(null);
   
-  const { register, handleSubmit, control, formState: { errors } } = useForm<InitiativeData>({
+  const { register, handleSubmit, control, formState: { errors }, reset } = useForm<InitiativeData>({
     defaultValues: initialData,
   });
 
@@ -39,19 +45,56 @@ export default function StepOne({ onNext, initialData }: StepOneProps) {
     name: "committeeMembers",
   });
 
+  useEffect(() => {
+    const savedInitiative = localStorage.getItem('savedInitiative');
+    if (savedInitiative && !initialData.name) {
+      setSavedData(JSON.parse(savedInitiative));
+      setShowLoadDialog(true);
+    }
+  }, [initialData]);
+
   const onSubmit = (data: InitiativeData) => {
     if (data.committeeMembers.length < 3) {
       setError('Потребно је најмање 3 члана иницијативног одбора');
       return;
     }
     setError('');
+    // Save to localStorage before proceeding
+    localStorage.setItem('savedInitiative', JSON.stringify(data));
     onNext(data);
+  };
+
+  const handleLoadSavedData = () => {
+    if (savedData) {
+      reset(savedData);
+      setShowLoadDialog(false);
+    }
+  };
+
+  const handleStartNew = () => {
+    localStorage.removeItem('savedInitiative');
+    setShowLoadDialog(false);
   };
 
   return (
     <Box component="form" onSubmit={handleSubmit(onSubmit)}>     
-     <Typography variant="body1" paragraph sx={{ mb: 3 }}>Добродошли на платформу за грађанске иницијативе! Овде ћете пронаћи документацију, водиче за електронски потпис и алате за креирање грађанске иницијативе.</Typography>     
-     <Typography variant="h6" gutterBottom>
+      <Dialog open={showLoadDialog} onClose={() => setShowLoadDialog(false)}>
+        <DialogTitle>Учитавање сачуваних података</DialogTitle>
+        <DialogContent>
+          <Typography>
+            Пронађени су сачувани подаци о иницијативи. Да ли желите да их учитате?
+          </Typography>
+        </DialogContent>
+        <DialogActions>
+          <Button onClick={handleStartNew}>Започни нову иницијативу</Button>
+          <Button onClick={handleLoadSavedData} variant="contained">
+            Учитај сачуване податке
+          </Button>
+        </DialogActions>
+      </Dialog>
+
+      <Typography variant="body1" paragraph sx={{ mb: 3 }}>Добродошли на платформу за грађанске иницијативе! Овде ћете пронаћи документацију, водиче за електронски потпис и алате за креирање грађанске иницијативе.</Typography>     
+      <Typography variant="h6" gutterBottom>
         Унесите податке о вашој иницијативи
       </Typography>
 
