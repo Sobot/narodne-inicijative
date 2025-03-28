@@ -45,6 +45,9 @@ export default function StepOne({ onNext, initialData }: StepOneProps) {
 
   return (
     <Box component="form" onSubmit={handleSubmit(onSubmit)}>
+      <Typography variant="body1" paragraph sx={{ mb: 3 }}>
+      Добродошли на платформу за грађанске иницијативе! Овде ћете пронаћи документацију, водиче за електронски потпис и алате за креирање грађанске иницијативе.</Typography>
+
       <Typography variant="h6" gutterBottom>
         Унесите податке о вашој иницијативи
       </Typography>
