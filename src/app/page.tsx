@@ -241,7 +241,7 @@ export default function Home() {
                   </Button>
                 )}
 
-                {activeStep < 4 ? (
+                {activeStep > 1 && activeStep < 4 && (
                   <Button
                     variant="contained"
                     onClick={() => handleNext(initiativeData)}
@@ -249,7 +249,9 @@ export default function Home() {
                   >
                     Даље
                   </Button>
-                ) : (
+                )}
+
+                {activeStep === 4 && (
                   <Button
                     variant="contained"
                     color="success"
