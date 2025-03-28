@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { ThemeProvider } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import { Container, Box, Stepper, Step, StepLabel, Paper, Typography, Button, Stack, IconButton, useTheme, useMediaQuery } from '@mui/material';
@@ -13,6 +13,7 @@ import StepOne from '@/components/StepOne';
 import StepTwo from '@/components/StepTwo';
 import StepThree from '@/components/StepThree';
 import StepFour from '@/components/StepFour';
+import { useSearchParams, useRouter } from 'next/navigation';
 
 // const theme = createTheme({
 //   palette: {
@@ -38,6 +39,8 @@ const steps = [
 export default function Home() {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
+  const router = useRouter();
+  const searchParams = useSearchParams();
   const [activeStep, setActiveStep] = useState<StepType>(1);
   const [isCompleted, setIsCompleted] = useState(false);
   const [initiativeData, setInitiativeData] = useState<InitiativeData>({
@@ -47,17 +50,41 @@ export default function Home() {
     committeeMembers: [],
   });
 
+  // Initialize step from URL
+  useEffect(() => {
+    const stepParam = searchParams.get('step');
+    if (stepParam) {
+      const step = parseInt(stepParam);
+      if (step >= 1 && step <= 4) {
+        setActiveStep(step as StepType);
+      }
+    }
+  }, [searchParams]);
+
+  const updateStepInUrl = (step: StepType) => {
+    const params = new URLSearchParams(searchParams.toString());
+    params.set('step', step.toString());
+    router.push(`?${params.toString()}`);
+  };
+
   const handleNext = (data: InitiativeData) => {
     setInitiativeData(data);
-    setActiveStep((prevStep) => (prevStep + 1) as StepType);
+    const nextStep = (activeStep + 1) as StepType;
+    setActiveStep(nextStep);
+    updateStepInUrl(nextStep);
   };
 
   const handleBack = () => {
-    setActiveStep((prevStep) => (prevStep - 1) as StepType);
+    const prevStep = (activeStep - 1) as StepType;
+    setActiveStep(prevStep);
+    updateStepInUrl(prevStep);
   };
 
   const handleFinish = () => {
     setIsCompleted(true);
+    const params = new URLSearchParams(searchParams.toString());
+    params.set('completed', 'true');
+    router.push(`?${params.toString()}`);
   };
 
   const handleShare = (platform: string) => {
