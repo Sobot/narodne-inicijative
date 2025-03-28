@@ -1,4 +1,3 @@
-import { transliterate } from 'transliteration';
 import municipalityContacts from '@/data/opstineKontakti.json';
 
 export interface MunicipalityContact {
@@ -10,20 +9,42 @@ export interface MunicipalityContact {
 }
 
 export function findMunicipalityContacts(cyrillicMunicipality: string): MunicipalityContact[] {
-  const latinMunicipality = transliterate(cyrillicMunicipality);
-  
-  const municipality = municipalityContacts.municipalities.find(
-    m => transliterate(m.name.toLowerCase()) === latinMunicipality.toLowerCase()
+  const municipality = municipalityContacts.find(
+    m => m["Назив јединице локалне самоуправе"].toLowerCase() === cyrillicMunicipality.toLowerCase()
   );
 
-  return municipality?.contacts || [];
+  if (!municipality) return [];
+
+  return [
+    {
+      position: "Председник општине",
+      name: municipality["Име и презиме градоначелника/ председника општине"] || null,
+      email: municipality["Email адреса градоначелника/председника општине"] || "",
+      phone: municipality["Контакт телефон градоначелника/председника општине"] || null,
+      web: null
+    },
+    {
+      position: "Председник скупштине",
+      name: municipality["Име и презиме председника скупштине"] || null,
+      email: municipality["Email адреса председника скупштине"] || "",
+      phone: municipality["Контакт телефон председника скупштине"] || null,
+      web: null
+    },
+    {
+      position: "Начелник општинске управе",
+      name: municipality["Име и презиме начелника општинске/градске управе"] || null,
+      email: municipality["Email адреса начелника општинске/градске управе"] || "",
+      phone: municipality["Контакт телефон начелника општинске/градске управе"] || null,
+      web: null
+    }
+  ].filter(contact => contact.email !== "");
 }
 
 export function getPresidentEmail(contacts: MunicipalityContact[]): string | null {
-  const president = contacts.find(c => c.position === 'predsednik opštine');
+  const president = contacts.find(c => c.position === "Председник општине");
   return president?.email || null;
 }
 
 export function getOtherContacts(contacts: MunicipalityContact[]): MunicipalityContact[] {
-  return contacts.filter(c => c.position !== 'predsednik opštine');
+  return contacts.filter(c => c.position !== "Председник општине");
 } 
