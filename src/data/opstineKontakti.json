@@ -4,11 +4,11 @@
       "name": "Ada",
       "contacts": [
         {
-          "position": "predsednik opštine",
-          "name": "Zoltan Bilicki",
+          "position": "predsednik opštine Zoltan",
+          "name": "Bilicki",
           "email": "predsednik@ada.org.rs",
           "phone": "024/852-106",
-          "web": "lok 332"
+          "web": "lok"
         },
         {
           "position": "predsednik skupštine opštine",
@@ -22,7 +22,7 @@
           "name": "Robert Vaštag",
           "email": "nacelnik@ada.org.rs",
           "phone": "024/852-106",
-          "web": "lok 212"
+          "web": "lok"
         }
       ]
     },
@@ -30,8 +30,8 @@
       "name": "Aleksandrovac",
       "contacts": [
         {
-          "position": "predsednik opštine",
-          "name": "Mirko Mihajlović",
+          "position": "predsednik opštine Mirko",
+          "name": "Mihajlović",
           "email": "drmirkomihajlovic@gmail.com",
           "phone": "037/3552-275",
           "web": null
@@ -56,8 +56,8 @@
       "name": "Aleksinac",
       "contacts": [
         {
-          "position": "predsednik opštine",
-          "name": "Dalibor Radičević",
+          "position": "predsednik opštine Dalibor",
+          "name": "Radičević",
           "email": "predsednik@aleksinac.org",
           "phone": "018/809-001",
           "web": null
@@ -82,8 +82,8 @@
       "name": "Alibunar",
       "contacts": [
         {
-          "position": "predsednik opštine",
-          "name": "Zorana Bratić",
+          "position": "predsednik opštine Zorana",
+          "name": "Bratić",
           "email": "predsednik@alibunar.org.rs",
           "phone": "013/642-105",
           "web": null
@@ -108,8 +108,8 @@
       "name": "Apatin",
       "contacts": [
         {
-          "position": "predsednik opštine",
-          "name": "Dubravka Korać",
+          "position": "predsednik opštine Dubravka",
+          "name": "Korać",
           "email": "dubravka.korac@apatin.rs",
           "phone": "025/772122",
           "web": "lok.608"
@@ -134,24 +134,24 @@
       "name": "Aranđelovac",
       "contacts": [
         {
-          "position": "predsednik opštine",
-          "name": "Bojan Radović",
+          "position": "predsednik opštine Bojan",
+          "name": "Radović",
           "email": "predsednik@arandjelovac.rs",
-          "phone": "034/711 722",
+          "phone": "034/711",
           "web": null
         },
         {
           "position": "predsednik skupštine opštine",
           "name": "Desanka Milanov",
           "email": "predsednikskupstine@arandjelovac.rs",
-          "phone": "034/711 722",
+          "phone": "034/711",
           "web": null
         },
         {
           "position": "načelnik opštinske uprave",
           "name": "Negoslav Petronijević",
           "email": "nacelnik@arandjelovac.rs",
-          "phone": "034/711 722",
+          "phone": "034/711",
           "web": null
         }
       ]
@@ -160,24 +160,24 @@
       "name": "Arilje",
       "contacts": [
         {
-          "position": "predsednik opštine",
-          "name": "Predrag Maslar",
+          "position": "predsednik opštine Predrag",
+          "name": "Maslar",
           "email": "predsednik@arilje.org.rs",
-          "phone": "031 3150111",
+          "phone": "031",
           "web": null
         },
         {
           "position": "predsednik skupštine opštine",
           "name": "Radiša Stefanović",
           "email": "predsednikso@arilje.org.rs",
-          "phone": "031 3150112",
+          "phone": "031",
           "web": null
         },
         {
           "position": "načelnik opštinske uprave",
           "name": "Gorica Petrović",
           "email": "nacelnik@arilje.org.rs",
-          "phone": "031 3150117",
+          "phone": "031",
           "web": null
         }
       ]
@@ -186,24 +186,24 @@
       "name": "Babušnica",
       "contacts": [
         {
-          "position": "predsednik opštine",
-          "name": "Ivana Stojičić",
+          "position": "predsednik opštine Ivana",
+          "name": "Stojičić",
           "email": "kabinet@babusnica.rs",
-          "phone": "010 385112",
+          "phone": "010",
           "web": null
         },
         {
           "position": "predsednik skupštine opštine",
           "name": "Dalibor Jocić",
           "email": "skupstina@babusnica.rs",
-          "phone": "010 385112",
+          "phone": "010",
           "web": null
         },
         {
           "position": "načelnik opštinske uprave",
           "name": "Slavica Milić",
           "email": "sobabusnica@ptt.rs",
-          "phone": "010 385112",
+          "phone": "010",
           "web": null
         }
       ]
@@ -212,17 +212,17 @@
       "name": "Bač",
       "contacts": [
         {
-          "position": "predsednik opštine",
-          "name": "dr Steva Panić",
-          "email": "steva.panic@bac.rs;predsednik@bac.rs",
-          "phone": "021/ 60 70 170",
+          "position": "predsednik opštine dr",
+          "name": "Steva Panić",
+          "email": "steva.panic@bac.rs;",
+          "phone": "predsednik@bac.rs",
           "web": null
         },
         {
           "position": "predsednik skupštine opštine",
           "name": "Dragan Amidžić",
           "email": "skupstina@bac.rs",
-          "phone": "021/60 70 310",
+          "phone": "021/60",
           "web": null
         },
         {
@@ -230,16 +230,11 @@
           "name": "Špiro Šorgić",
           "email": "nacelnik@bac.rs",
           "phone": "021/6070075",
-          "web": "lokal 132"
-        }
-      ]
-    },
-    {
-      "name": "Bačka Palanka",
-      "contacts": [
+          "web": "lokal"
+        },
         {
-          "position": "predsednik opštine",
-          "name": "Branislav Šušnica",
+          "position": "predsednik opštine Branislav",
+          "name": "Šušnica",
           "email": "sekretarica@backapalanka.org.rs",
           "phone": "021/210-11-92",
           "web": null
@@ -257,25 +252,6 @@
           "email": "nacelnik@backapalanka.org.rs",
           "phone": "021/210-1192",
           "web": null
-        }
-      ]
-    },
-    {
-      "name": "Bačka Topola",
-      "contacts": [
-        {
-          "position": "contact",
-          "name": null,
-          "email": "adrian.szatmari@btopola.org",
-          "phone": "024/715-899",
-          "web": null
-        },
-        {
-          "position": "predsednik opštine",
-          "name": null,
-          "email": "predsednikopstine@btopola.org.rs",
-          "phone": null,
-          "web": null
         },
         {
           "position": "predsednik skupštine opštine",
@@ -290,15 +266,10 @@
           "email": "peter.sedlar@btopola.org.rs",
           "phone": "024/715-899",
           "web": null
-        }
-      ]
-    },
-    {
-      "name": "Bački Petrovac",
-      "contacts": [
+        },
         {
-          "position": "predsednik opštine",
-          "name": "Jasna Šproh",
+          "position": "predsednik opštine Jasna",
+          "name": "Šproh",
           "email": "opstina@backipetrovac.rs",
           "phone": "021/780-247",
           "web": null
@@ -316,9 +287,2705 @@
           "email": "nacelnik@backipetrovac.rs",
           "phone": "021/780-247",
           "web": null
+        },
+        {
+          "position": "predsednik opštine Vesna",
+          "name": "Đurić",
+          "email": "predsednica@bajinabasta.rs",
+          "phone": "031/865-280",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "v.d. Aleksandra Kovački",
+          "email": "nacelnik@bajinabasta.rs",
+          "phone": "031/862-366",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Batočina",
+      "contacts": [
+        {
+          "position": "predsednik opštine Zdravko",
+          "name": "Mladenović",
+          "email": "predsednik@sobatocina.org.rs",
+          "phone": "034/6842-118",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Nevena Mitić",
+          "email": "predsednikskupstine@sobatocina.org.rs",
+          "phone": "034/6841-208",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Nina Jevtić",
+          "email": "nacelnik@sobatocina.org.rs",
+          "phone": "034/6842-118",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Bečej",
+      "contacts": [
+        {
+          "position": "predsednik opštine Dragan",
+          "name": "Tošić",
+          "email": "predsednik@becej.rs",
+          "phone": "021/6811-815",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Kiš Igor",
+          "email": "kiss.igor@gmail.com;",
+          "phone": "igor.kis@becej.rs",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Zoran Kovač",
+          "email": "nacelnik@becej.rs",
+          "phone": "021/6811-820",
+          "web": null
+        },
+        {
+          "position": "predsednik opštine Violeta",
+          "name": "Simić",
+          "email": "kabinetbc@mobilpro.rs",
+          "phone": "013/853-346",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Marjan Aleksić",
+          "email": "kabinetbc@mobilpro.rs",
+          "phone": "013/853-346",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Miroslav Šinžar",
+          "email": "kabinetbc@mobilpro.rs",
+          "phone": "013/853-346",
+          "web": null
+        },
+        {
+          "position": "predsednik opštine Goran",
+          "name": "Miljković",
+          "email": "predsednik@belapalanka.org.rs",
+          "phone": "018/855-023",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Aleksandar Pejčić",
+          "email": "sobelapalanka@belapalanka.org.rs",
+          "phone": "018/855-023",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Aleksandra Đorđević",
+          "email": "sobelapalanka@belapalanka.org.rs",
+          "phone": "018/855-023",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Beočin",
+      "contacts": [
+        {
+          "position": "predsednik opštine Mirjana",
+          "name": "Malešević Milkić",
+          "email": "mirjana.milkic@beocin.rs",
+          "phone": "021/870-260",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Nemanja Vilić",
+          "email": "nemanja.vilic@beocin.rs",
+          "phone": "021/870-260",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Sekula Petrović",
+          "email": "sekula.beocin@gmail.com",
+          "phone": "021/870-260",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Blace",
+      "contacts": [
+        {
+          "position": "predsednik opštine Ivan",
+          "name": "Burgić",
+          "email": "predsednik@blace.org.rs",
+          "phone": "027/371-110",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Dejan Mijajlović",
+          "email": "predsednikskupstine@blace.org.rs",
+          "phone": "027/371-110",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Jasmina Lapčević",
+          "email": "oublace@blace.org.rs",
+          "phone": "027/371-722",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Bogatić",
+      "contacts": [
+        {
+          "position": "predsednik opštine Milan",
+          "name": "Damnjanović",
+          "email": "predsednik@bogatic.rs,",
+          "phone": "0157786126",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Siniša Puzić",
+          "email": "sinisa.puzic@bogatic.rs",
+          "phone": "0157786126",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Branko Danilović",
+          "email": "branko.danilovic@bogatic.rs",
+          "phone": "0157786126",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Bojnik",
+      "contacts": [
+        {
+          "position": "predsednik opštine Nebojša",
+          "name": "Nenadović",
+          "email": "predsednik@bojnik.rs",
+          "phone": "016/821-214",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Dragiša Dimitrijević",
+          "email": "predsednikso@bojnik.org.rs",
+          "phone": "016/821-214",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Nebojša Stanković",
+          "email": "nebojsa.stankovic@bojnik.org.rs",
+          "phone": "016/821-214",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Boljevac",
+      "contacts": [
+        {
+          "position": "predsednik opštine dr",
+          "name": "Nebojša Marjanović",
+          "email": "kabinet@opstinaboljevac.rs,",
+          "phone": "predsednik@opstinaboljevac.rs",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Jelena Milosavljević Radosavljević",
+          "email": "skupstina@opstinaboljevac.rs",
+          "phone": "030",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Momira Grujo",
+          "email": "nacelnikou@opstinaboljevac.rs",
+          "phone": null,
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Bosilegrad",
+      "contacts": [
+        {
+          "position": "predsednik opštine Vladimir",
+          "name": "Zahrijev",
+          "email": "opstina@bosilegrad.rs",
+          "phone": "017877006",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Slavčo Vladimirov",
+          "email": "opstina@bosilegrad.rs",
+          "phone": "017877008",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Miodrag Jakimov",
+          "email": "opstina@bosilegrad.rs",
+          "phone": "017877337",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Brus",
+      "contacts": [
+        {
+          "position": "predsednik opštine Valentina",
+          "name": "Milosavljević",
+          "email": "predopstinebrus@mts.rs,",
+          "phone": "valentinamilosavljevic@yahoo.com",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Dragana Despotović",
+          "email": "draganadespotovic1907@gmail.com,",
+          "phone": null,
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Valentina Luković",
+          "email": "valentinalukovic@brus.rs",
+          "phone": "037/315-0176",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Bujanovac",
+      "contacts": [
+        {
+          "position": "predsednik opštine Nagip",
+          "name": "Arifi",
+          "email": "nagiparifi@yahoo.com",
+          "phone": "017/651-013",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Enevr Ramadani",
+          "email": "enveramadani@gmail.com",
+          "phone": "017/651-006",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Nasim Redzepi",
+          "email": "n.rexhepi62@gmail.com",
+          "phone": "017/653-330",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Čajetina",
+      "contacts": [
+        {
+          "position": "predsednik opštine Milan",
+          "name": "Stamatović",
+          "email": "predsednik@cajetina.org.rs",
+          "phone": "031/3831-250",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Đurić Arsen",
+          "email": "skupstina@cajetina.org.rs",
+          "phone": "031/3831-250",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Milica Stamatović",
+          "email": "nacelnik@cajetina.org.rs",
+          "phone": "031/3831-753",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Ćićevac",
+      "contacts": [
+        {
+          "position": "predsednik opštine Dr",
+          "name": "Mirjana Krkić",
+          "email": "kabinet@cicevac.ls.gov.rs",
+          "phone": "037",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Miloš Radosavljević",
+          "email": "predsednik.skupstine@cicevac.ls.gov.rs",
+          "phone": "037",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Mirjana Stanojević Jović",
+          "email": "nacelnik@cicevac.ls.gov.rs",
+          "phone": "037",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Čoka",
+      "contacts": [
+        {
+          "position": "predsednik opštine Stana",
+          "name": "Đember",
+          "email": "opstina@coka.rs",
+          "phone": "0230/471-000",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Tibor Olaj",
+          "email": "olajtibor@coka.rs",
+          "phone": "0230/471-000",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Tamara Ardala",
+          "email": "nacelnik@coka.rs",
+          "phone": "0230/471-000",
+          "web": null
+        },
+        {
+          "position": "predsednik opštine Slavoljub",
+          "name": "Blagojević",
+          "email": "slavoljub.blagojevic@opstinacrnatrava.org.rs",
+          "phone": "016/811-115",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Joca Mitić",
+          "email": "joca.mitic@opstinacrnatrava.org.rs",
+          "phone": "016/811-115",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Zoran Stanković",
+          "email": "zoran.stankovic@opstinacrnatrava.org.rs",
+          "phone": "016/811-115",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Ćuprija",
+      "contacts": [
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Ninoslav Erić",
+          "email": "ninoslav.eric@cuprija.rs",
+          "phone": "035/8150910",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Milica Cvetković",
+          "email": "milica.cvetkovic@cuprija.rs",
+          "phone": "035/8150930",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Despotovac",
+      "contacts": [
+        {
+          "position": "predsednik opštine Nikola",
+          "name": "Nikolić",
+          "email": "sodespotovac@ptt.rs",
+          "phone": "035/611-117",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Marjanović Zlatko",
+          "email": "sodespotovac@ptt.rs",
+          "phone": "035/611-117",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Jablanović Gordana",
+          "email": "nacelnik@despotovac.rs",
+          "phone": "035/611-117",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Dimitrovgrad",
+      "contacts": [
+        {
+          "position": "predsednik opštine Vladica",
+          "name": "Dimitrov",
+          "email": "predsednik@dimitrovgrad.rs",
+          "phone": ",",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Zoran Đjurov",
+          "email": "skupstinadimitrovgrad@gmail.com",
+          "phone": "010/361-582",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Dragan Golubov",
+          "email": "nacelnik@dimitrovgrad.rs",
+          "phone": "010/361-100",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Doljevac",
+      "contacts": [
+        {
+          "position": "predsednik opštine Goran",
+          "name": "Ljubić",
+          "email": "opstina@opstinadoljevac.rs",
+          "phone": "018/4810-054",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Dejan Smiljković",
+          "email": "dejansmiljkovic70@gmail.com",
+          "phone": "018/4810-054",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Gordana Cvetković",
+          "email": "gordanacvetkovic64@gmail.com",
+          "phone": "018/4810-056",
+          "web": null
+        },
+        {
+          "position": "predsednik opštine Milisav",
+          "name": "Filipović",
+          "email": "mica.filipovic1972nis@gmail.com",
+          "phone": "018",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Marija Cvetković",
+          "email": "cvetkovic.ma@mts.rs",
+          "phone": "018",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Ljiljana Petrović",
+          "email": "nacelnik@gadzinhan.rs",
+          "phone": "018",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Golubac",
+      "contacts": [
+        {
+          "position": "predsednik opštine dr",
+          "name": "Nebojša Mijović",
+          "email": "predsednik@golubac.org.rs",
+          "phone": "012/678-128",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Zoran Ćirković",
+          "email": "zoranciragolubac@gmail.com",
+          "phone": "012/678-103",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Vladica Buljubaša",
+          "email": "vladicabuljubasa@golubac.org.rs",
+          "phone": "012/678-178",
+          "web": null
+        },
+        {
+          "position": "predsednik opštine Dejan",
+          "name": "Kovačević",
+          "email": "predsednik@gornjimilanovac.rs",
+          "phone": "032/515",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Lazar Nikolić",
+          "email": "predsednikso@gornjimilanovac.rs",
+          "phone": "032/515",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Dejan Veljović",
+          "email": "nacelnik@gornjimilanovac.rs",
+          "phone": "032/515",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine grada",
+          "name": "Nikola Nikodijević",
+          "email": "predsedniksgb@beograd.gov.rs",
+          "phone": "011",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine grada",
+          "name": "Igor Trifunović",
+          "email": "predsednikskupstine@cacak.org.rs",
+          "phone": "032/30",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine grada",
+          "name": "Dragan Marković",
+          "email": "gradjagodina@jagodina.org.rs",
+          "phone": "035",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine grada",
+          "name": "Miroslav Petrašinović",
+          "email": "mpetrasinovic@kg.org.rs",
+          "phone": "034",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine grada",
+          "name": "Nenad Marković",
+          "email": "nenmarko72@gmail.com",
+          "phone": "036/306-031",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine grada",
+          "name": "Predrag Vukićević",
+          "email": "predrag.vukicevic@krusevac.rs",
+          "phone": "037/414-736",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine grada",
+          "name": "Aleksandar Đurović",
+          "email": "predsednik.skupstine@gradleskovac.org",
+          "phone": "016/200-829",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine grada",
+          "name": "Milena Manojlović Knežević",
+          "email": "mmknezevic@loznica.rs",
+          "phone": "015/879216",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine grada",
+          "name": "Boban Džunić",
+          "email": "boban.dzunic@gu.ni.rs",
+          "phone": "018/504422",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine grada",
+          "name": "Anela Šemsović",
+          "email": "anela.semsovic@novipazar.org.rs",
+          "phone": "020/5151-318",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine grada",
+          "name": "Jelena Marinković Radomirović",
+          "email": "jelena.marinkovic@novisad.rs",
+          "phone": "021/523-549,021/523-333",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine grada",
+          "name": "Milena Dimitrijević",
+          "email": "milena.dimitrijevic@pirot.rs",
+          "phone": "010/305",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine grada",
+          "name": "Tigran Kiš",
+          "email": "tigran.kis@pancevo.rs",
+          "phone": "013/344-940",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine grada",
+          "name": "Predrag Mijatović",
+          "email": "predrag.mijatovic@pozarevac.rs",
+          "phone": "012/539606",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine grada",
+          "name": "Nemanja Pajić",
+          "email": "nemanja.pajic@sabac.org",
+          "phone": "015347177",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine grada",
+          "name": "Vesna Kiš Kostić",
+          "email": "vkiskostic@gmail.com",
+          "phone": "026/4621917",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine grada",
+          "name": "Ilija Nedić",
+          "email": "predsednik.sg@sremskamitrovica.org.rs",
+          "phone": "022/610-556",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine grada",
+          "name": "Balint Pastor",
+          "email": "sgpredsednik@subotica.rs",
+          "phone": "024/626-969",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine grada",
+          "name": "Snežana Rakić",
+          "email": "snezana.rakic@valjevo.org.rs",
+          "phone": "014/294-702",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine grada",
+          "name": "Dejan Tričković",
+          "email": "predsednikskupstine@vranje.org.rs",
+          "phone": "017",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine grada",
+          "name": "Predrag Mijatović",
+          "email": "predsednikso@vrsac.org.rs",
+          "phone": "013/835-667",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine grada",
+          "name": "Stefan Zankov",
+          "email": "stefan.zankov@zajecar.info",
+          "phone": "019/444-653",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine grada",
+          "name": "Čedomir Janjić",
+          "email": "skupstina.grada@grad.zrenjanin.rs",
+          "phone": "023/3150202",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine grada",
+          "name": "Dragan Žikić",
+          "email": "predsednik.so@bor.rs",
+          "phone": "030/423-980",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine grada",
+          "name": "Dejan Lazić",
+          "email": "skupstina@prokuplje.org.rs",
+          "phone": "027/321-071",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Inđija",
+      "contacts": [
+        {
+          "position": "predsednik opštine Vladimir",
+          "name": "Gak",
+          "email": "vladimir.gak@indjija.net",
+          "phone": "022/561322",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Đorđe Dimić",
+          "email": "djordje.dimic@indjija.net",
+          "phone": null,
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Aleksandar Banić",
+          "email": "aleksandar.banic@indjija.net",
+          "phone": "022/561324",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Irig",
+      "contacts": [
+        {
+          "position": "predsednik opštine Tihomir",
+          "name": "Stojaković",
+          "email": "tihomir.stojakovic@gmail.com,",
+          "phone": "opstinairig@irig.rs",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Stevan Kazimirović",
+          "email": "stevankazimirovic@gmail.com",
+          "phone": "022/400-600",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Oliver Ognjenović",
+          "email": "oliver.ognjenovic@gmail.com",
+          "phone": "022/400-600",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Ivanjica",
+      "contacts": [
+        {
+          "position": "predsednik opštine Momčilo",
+          "name": "Mitrović",
+          "email": "momcilo.mitrovic@ivanjica.gov.rs,",
+          "phone": "soivanjica@ivanjica.gov.rs",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Vladimir Bojanović",
+          "email": "vladimir.bojanovic@ivanjica.gov.rs",
+          "phone": "032/5150303",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Bojana Glavinić",
+          "email": "bojana.glavinic@ivanjica.gov.rs",
+          "phone": "032/5150305",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Kanjiža",
+      "contacts": [
+        {
+          "position": "predsednik opštine Robert",
+          "name": "Fejstamer",
+          "email": "predsednik@kanjiza.rs",
+          "phone": "024",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Robert Lacko",
+          "email": "laroby@kanjiza.rs",
+          "phone": "024",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Marija Milovanović",
+          "email": "marijam@kanjiza.rs",
+          "phone": "024",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Kladovo",
+      "contacts": [
+        {
+          "position": "predsednik opštine Saša",
+          "name": "Nikolić",
+          "email": "snikolic@kladovonet.com,",
+          "phone": "opstina@kladovonet.com",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Dragan Maksimović",
+          "email": "dragan.maksimovic@djerdap.rs",
+          "phone": "019/803-900",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Zlatko Kalinović",
+          "email": "zkalinovic@kladovonet.com",
+          "phone": "019/801-450",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Knić",
+      "contacts": [
+        {
+          "position": "predsednik opštine Srećko",
+          "name": "Ilic",
+          "email": "kabinet@knic.rs",
+          "phone": "034/510-113",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Svetlana Anđelić",
+          "email": "predsednikso@knic.rs",
+          "phone": "034/510-113",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Marina Petrovic",
+          "email": "nacelnik@knic.rs",
+          "phone": "034/510-113",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Knjaževac",
+      "contacts": [
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Marko Stojanović",
+          "email": "marko.stojanovic@knjazevac.rs",
+          "phone": "019",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Emilija Tasic",
+          "email": "emilija.tasic@knjazevac.rs",
+          "phone": "019",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Koceljeva",
+      "contacts": [
+        {
+          "position": "predsednik opštine Dušan",
+          "name": "Ilinčić",
+          "email": "pred_koc@ptt.rs",
+          "phone": "015/556-322",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Veroljub Matić",
+          "email": "pred_koc@ptt.rs",
+          "phone": "015/556-189",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Slobodan Vasić",
+          "email": "oukoceljeva@gmail.com",
+          "phone": "015/556-322",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Kosjerić",
+      "contacts": [
+        {
+          "position": "predsednik opštine Žarko",
+          "name": "Đokić",
+          "email": "kabinet@kosjeric.rs,",
+          "phone": "predsednik@kosjeric.rs",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Tatjana Koković",
+          "email": "skupstina.predsednik@kosjeric.rs",
+          "phone": "031781461",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Slavica Petrović",
+          "email": "nacelnik.uprave@kosjeric.rs",
+          "phone": "031781462",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Kovačica",
+      "contacts": [
+        {
+          "position": "predsednik opštine Jaroslav",
+          "name": "Hrubik",
+          "email": "predsednik.opstine@kovacica.org,",
+          "phone": "013/661-122",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Milan Garašević",
+          "email": "predsednik.skupstine@kovacica.org,",
+          "phone": "kabinet@kovacica.org",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Tanja Bubeskov",
+          "email": "tanjab@kovacica.org",
+          "phone": "013/661-122",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Kovin",
+      "contacts": [
+        {
+          "position": "predsednik opštine Sanja",
+          "name": "Petrović",
+          "email": "predsednik@kovin.org.rs",
+          "phone": "013/742114",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Zoran Bradanji",
+          "email": "predsednik@kovin.org.rs",
+          "phone": "013/742114",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Jelena Čolaković",
+          "email": "jelenacolakovic@mts.rs",
+          "phone": "013/742114",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Kučevo",
+      "contacts": [
+        {
+          "position": "predsednik opštine dr",
+          "name": "Ivan Rajičić",
+          "email": "predsednik@kucevo.rs",
+          "phone": "012",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Branko Kecman",
+          "email": "bmkecman@gamil.com;",
+          "phone": "sokucevo@kucevo.rs",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Zoran Velimirović",
+          "email": "nacelnik@kucevo.rs",
+          "phone": "012",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Kula",
+      "contacts": [
+        {
+          "position": "predsednik opštine Damjan",
+          "name": "Miljanić",
+          "email": "miljanic.damjan@gmail.com;",
+          "phone": "kabinetpredsednika@kula.rs",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave/",
+          "name": "u ostavci čeka se promena Čadomir Beronja",
+          "email": "cberonja@kula.rs",
+          "phone": "025/751-155",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Kuršumlija",
+      "contacts": [
+        {
+          "position": "predsednik opštine Vojimir",
+          "name": "Čarapić",
+          "email": "predsednik@kursumlija.org",
+          "phone": "027",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Dejan Lovic",
+          "email": "predsednikskupstine@kursumlija.org",
+          "phone": "027",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Miljan Radosavljevic",
+          "email": "nacelnik@kursumlija.org",
+          "phone": "027",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Lajkovac",
+      "contacts": [
+        {
+          "position": "predsednik opštine Andrija",
+          "name": "Živković",
+          "email": "opstinalajkovac@gmail.com",
+          "phone": "014/3433-109",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Nenad Džajević",
+          "email": "opstinalajkovac@gmail.com",
+          "phone": "014/3433-109",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Živorad Bojičić",
+          "email": "opstinalajkovac@gmail.com",
+          "phone": "014/3433-109",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Lapovo",
+      "contacts": [
+        {
+          "position": "predsednik opštine Boban",
+          "name": "Miličić",
+          "email": "office@lapovo.rs,",
+          "phone": "predsednik@lapovo.rs",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Mirela Radenković",
+          "email": "radenkovicmirela@gmail.com,",
+          "phone": "sekretar.skupstine@lapovo.rs",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Nikola Nestorović",
+          "email": "nacelnik@lapovo.rs",
+          "phone": "034/853-941",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Lebane",
+      "contacts": [
+        {
+          "position": "predsednik opštine Ivan",
+          "name": "Bogdanović",
+          "email": "predsednik@lebane.org.rs,",
+          "phone": "kabinet@lebane.org.rs",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Boban Pejić",
+          "email": "kabinet@lebane.org.rs,",
+          "phone": "skupstina@lebane.org.rs",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Tanja Bogdanović",
+          "email": "nacelnik@lebane.org.rs",
+          "phone": "016/843-027",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Ljig",
+      "contacts": [
+        {
+          "position": "predsednik opštine Dragan",
+          "name": "Lazarević",
+          "email": "predsednikopstineljig@gmail.com",
+          "phone": "014/3445044",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Veselin Šiljegović",
+          "email": "veselin.siljegovic@epsdistribucija.rs",
+          "phone": null,
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Milan Janićijević",
+          "email": "milanj008@gmail.com,",
+          "phone": "ljig.kabinet@gmail.com",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Ljubovija",
+      "contacts": [
+        {
+          "position": "predsednik opštine Milan",
+          "name": "Jovanović",
+          "email": "predsednik@ljubovija.rs",
+          "phone": "015/561-960",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Goran Josipović",
+          "email": "pred.skupstine@ljubovija.rs",
+          "phone": "015/561-411",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Miroslav Nenadović",
+          "email": "nacelnik@ljubovija.rs",
+          "phone": "015/561-940",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Lučani",
+      "contacts": [
+        {
+          "position": "predsednik opštine Milivoje",
+          "name": "Dolovic",
+          "email": "opstinalucani.sefkabineta@hotmail.com,",
+          "phone": "predsednik@lucani.rs",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Vesna Stambolić",
+          "email": "opstinalucani.sefkabineta@hotmail.com",
+          "phone": "032",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Nataša Vujičić",
+          "email": "nacelnik@lucani.rs",
+          "phone": "032",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Majdanpek",
+      "contacts": [
+        {
+          "position": "predsednik opštine Dragan",
+          "name": "Popović",
+          "email": "predsednik@opstinamajdanpek.rs",
+          "phone": "030",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Nikola Naunović",
+          "email": "majdanpekso@ptt.rs",
+          "phone": "030",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Lidija Bindjesko",
+          "email": "nacelnik_ou@opstinamajdanpek.rs",
+          "phone": "030",
+          "web": null
+        },
+        {
+          "position": "predsednik opštine Marko",
+          "name": "Lazić",
+          "email": "markolazic60@gmail.com",
+          "phone": "024/4730-010",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Ištvan Šarkezi",
+          "email": "email@sarkoiistvan.com",
+          "phone": "024/4730-010",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Zoran Pustahija",
+          "email": "zoranpustahija@gmail.com",
+          "phone": "024/4731-425",
+          "web": null
+        },
+        {
+          "position": "predsednik opštine Zoran",
+          "name": "Jevtić",
+          "email": "zokki.jevtic@gmail.com",
+          "phone": ",",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Radovan Tadić",
+          "email": "radovan.tadic@malizvornik.rs",
+          "phone": "015/7",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Marizela Andrić",
+          "email": "nacelnik@malizvornik.rs",
+          "phone": "015/471-300",
+          "web": null
+        },
+        {
+          "position": "predsednik opštine Mališa",
+          "name": "Antonijević",
+          "email": "predsednik@opstinamalocrnice.rs",
+          "phone": "012",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Goranka Stević",
+          "email": "skupstina@opstinamalocrnice.rs,",
+          "phone": "sekretar@opstinamalocrnice.rs",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Medveđa",
+      "contacts": [
+        {
+          "position": "predsednik opštine Dr",
+          "name": "Nebojša Arsić",
+          "email": "predsednik@medvedja.org.rs,",
+          "phone": "kabinet@medvedja.org.rs",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Milan Stevanović",
+          "email": "predsednik.skupstine@medvedja.org.rs",
+          "phone": "016/891-134",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Svetlana Todorović",
+          "email": "nacelnik.ou@medvedja.org.rs",
+          "phone": "016/891-094",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Merošina",
+      "contacts": [
+        {
+          "position": "predsednik opštine Saša",
+          "name": "Jovanović",
+          "email": "predsednik@merosina.org.rs,",
+          "phone": "018/4892-034",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Oliver Ilić",
+          "email": "opstinamerosina@gmail.com",
+          "phone": "oliverilic282@gmail.com",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Danijela Nikolić",
+          "email": "strucnasluzba12@gmail.com",
+          "phone": "018/4892-023",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Mionica",
+      "contacts": [
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Miroslav Đurić",
+          "email": "sekretar@mionica.rs",
+          "phone": "014",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Goran Rangelov",
+          "email": "nacelnik@mionica.rs",
+          "phone": "014",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Negotin",
+      "contacts": [
+        {
+          "position": "predsednik opštine Vladimir",
+          "name": "Veličković",
+          "email": "predsednik.opstine@negotin.rs",
+          "phone": "019/542",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Milan Uruković",
+          "email": "predsednik.so@negotin.rs",
+          "phone": "019/543",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Zorica Mijušković",
+          "email": "nacelnik.ou@negotin.rs",
+          "phone": "019/548",
+          "web": null
+        },
+        {
+          "position": "predsednik opštine Vladimir",
+          "name": "Brakus",
+          "email": "vladimirbrakus@gmail.com",
+          "phone": "023/815-031",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Ana Marija Lekin",
+          "email": "amlekin@yahoo.com",
+          "phone": "023/815-030",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Vanja Ravic",
+          "email": "ravicvanja@gmail.com",
+          "phone": "023/815-030",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Branko Popović",
+          "email": "branko1804pop@gmail.com",
+          "phone": "033",
+          "web": null
+        },
+        {
+          "position": "predsednik opštine Saša",
+          "name": "Maksimović",
+          "email": "sasa.maksimovic@novibecej.rs",
+          "phone": "023/771",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Milovan Baštovanov",
+          "email": "milovan.bastovanov@gmail.com",
+          "phone": "023",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Tamara Popov",
+          "email": "tamara.popov@novibecej.rs",
+          "phone": "023",
+          "web": null
+        },
+        {
+          "position": "predsednik opštine Irena",
+          "name": "Slavkovic",
+          "email": "irena.slavkovic@noviknezevac.rs",
+          "phone": "0230/81-031",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Nandor Ujhelji",
+          "email": "predsednikso@noviknezevac.rs",
+          "phone": "0230/82-055",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Marija Matejin",
+          "email": "marija.matejin@noviknezevac.rs",
+          "phone": "0230/81-031",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Odžaci",
+      "contacts": [
+        {
+          "position": "predsednik opštine Goran",
+          "name": "Nikolić",
+          "email": "goran.nikolic.odzaci@gmail.com",
+          "phone": "025",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Goran Đaković",
+          "email": "gorandjakovic.blue@gmail.com",
+          "phone": "025",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Nedeljko Vučenović",
+          "email": "nacelnik@odzaci.rs",
+          "phone": "025",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Opovo",
+      "contacts": [
+        {
+          "position": "predsednik opštine Miloš",
+          "name": "Markov",
+          "email": "kabinet@opovo.org.rs",
+          "phone": "013/681",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Nenad Josić",
+          "email": "josicnenad80@gmail.com",
+          "phone": "013/682",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Ankica Jožik",
+          "email": "ankica.opovo@gmail.com",
+          "phone": "013/681",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Osečina",
+      "contacts": [
+        {
+          "position": "predsednik opštine Nikola",
+          "name": "Tomić",
+          "email": "kabinet.predsednik@osecina.com",
+          "phone": "014/451-158",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Svetozar Gačić",
+          "email": "skupstina@osecina.com",
+          "phone": "014/451-311",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Milan Urošević",
+          "email": "soosecina@mts.rs",
+          "phone": "014/451-311",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Paraćin",
+      "contacts": [
+        {
+          "position": "predsednik opštine Vladimir",
+          "name": "Milićević",
+          "email": "vladimir_milicevic@paracin.rs",
+          "phone": "opstina@paracin.rs",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Slavica Jovanović",
+          "email": "slavica_jovanovic@paracin.rs",
+          "phone": "035/563-601",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Boban Dejanović",
+          "email": "boban_dejanovic@paracin.rs",
+          "phone": "035/563-601",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Pećinci",
+      "contacts": [
+        {
+          "position": "predsednik opštine Siniša",
+          "name": "Đokić",
+          "email": "predsednik@pecinci.org",
+          "phone": "022",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Dubravka Kovačević Subotički",
+          "email": "predsednik.so@pecinci.org",
+          "phone": "022",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Dragana Krstić",
+          "email": "nacelnik.ou@pecinci.org",
+          "phone": "022",
+          "web": null
+        },
+        {
+          "position": "predsednik opštine Duško",
+          "name": "Nedinić",
+          "email": "pr@petrovacnamlavi.rs",
+          "phone": "info@petrovacnamlavi.rs",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Milanče Aćimović",
+          "email": "milance@petrovacnamlavi.rs",
+          "phone": "012",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Goran Stefanović",
+          "email": "stefanovic1975@gmail.com",
+          "phone": "012",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Plandište",
+      "contacts": [
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Goran Donevski",
+          "email": "goran.donevski@plandiste-opstina.rs",
+          "phone": "013/862-353",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Aleksandra Odavić Mak",
+          "email": "aleksandra.mak.odavic@plandiste-opstina.rs",
+          "phone": "013/861-538",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Požega",
+      "contacts": [
+        {
+          "position": "predsednik opštine Đorđe",
+          "name": "Nikitović",
+          "email": "predsednik@pozega.org.rs",
+          "phone": "031/811-181",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Dejan Mrkić",
+          "email": "predsednik.skupstine@pozega.org.rs",
+          "phone": "031/3816-401",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Slavica Petrović",
+          "email": "nacelnik@pozega.org.rs",
+          "phone": "031/3816-401",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Preševo",
+      "contacts": [
+        {
+          "position": "predsednik opštine Ardita",
+          "name": "Sinani",
+          "email": "kabineti@presevo.org.rs",
+          "phone": "017/7151000",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Agim Sabedini",
+          "email": "dr.gima79@hotmail.com",
+          "phone": "017/660688",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Agim Ymeri",
+          "email": "a.ymeri@presevo.rs",
+          "phone": "017/669114",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Priboj",
+      "contacts": [
+        {
+          "position": "predsednik opštine Lazar",
+          "name": "Rvović",
+          "email": "predsednik@priboj.rs",
+          "phone": "033",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Boris Mrdović",
+          "email": "predsednik.so@priboj.rs",
+          "phone": "033",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Đorđe Dujović",
+          "email": "nacelnikou@priboj.rs",
+          "phone": "033",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Prijepolje",
+      "contacts": [
+        {
+          "position": "predsednik opštine Vladimir",
+          "name": "Babić",
+          "email": "predsednik@prijepolje.ls.gov.rs",
+          "phone": "033/714-361",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Izudin Šantić",
+          "email": "skupstina@prijepolje.ls.gov.rs",
+          "phone": "033/712-250",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Miodrag Ćubić",
+          "email": "uprava@prijepolje.ls.gov.rs",
+          "phone": "033/712-297",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Rača",
+      "contacts": [
+        {
+          "position": "predsednik opštine Nenad",
+          "name": "Savković",
+          "email": "predsednik.opstine@raca.rs",
+          "phone": "034/751-001",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Branko Radosavljević",
+          "email": "predsednik.skupstine@raca.rs",
+          "phone": "034/751-175",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Goran Maksović",
+          "email": "nacelnik.uprave@raca.rs",
+          "phone": "034/751-003",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Raška",
+      "contacts": [
+        {
+          "position": "predsednik opštine Ignjat",
+          "name": "Rakitić",
+          "email": "ignjat_rakitic@raska.org.rs",
+          "phone": "036/736-281",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Mirjana Skorić",
+          "email": "mirjana.skoric@raska.gov.rs",
+          "phone": "036/736-501,",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Slobodan Ristović",
+          "email": "slobodan.ristovic@raska.gov.rs",
+          "phone": "036/734-403",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Ražanj",
+      "contacts": [
+        {
+          "position": "predsednik opštine Dobrica",
+          "name": "Stojković",
+          "email": "opstinarazanj@gmail.com",
+          "phone": "kabinetpredsednikaopstine@razanj.org",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Tomislav Matić",
+          "email": "skupstina@razanj.org",
+          "phone": "037/3841174",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "- v.d. Ivana Zdravković",
+          "email": "nacelnikopstinskeuprave@razanj.org",
+          "phone": "037/3841325",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Rekovac",
+      "contacts": [
+        {
+          "position": "predsednik opštine Aleksandar",
+          "name": "Đorđević",
+          "email": "predsedniksorekovac@gmail.com",
+          "phone": "035/8411-004",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Mirjana Rakić",
+          "email": "predsednikskupstine@rekovac.rs",
+          "phone": "mirjanarakic72@yahoo.com",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Slađana Glišić",
+          "email": "sorekovac@gmail.com",
+          "phone": "035/8411-150",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Ruma",
+      "contacts": [
+        {
+          "position": "predsednik opštine Slađan",
+          "name": "Mančić",
+          "email": "predopruma@ruma.rs",
+          "phone": "022/478-314",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Stevan Kovačević",
+          "email": "stevakovacevic@gmail.com",
+          "phone": "predsoruma@ruma.rs",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Dušan Ljubišić",
+          "email": "nacopuprave@ruma.rs",
+          "phone": "022/478-314",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Sečanj",
+      "contacts": [
+        {
+          "position": "predsednik opštine Predrag",
+          "name": "Radjenović",
+          "email": "radjenovicsosecanj@gmail.com",
+          "phone": "023",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Arsen Plahin",
+          "email": "plahin_arsen@yahoo.com",
+          "phone": "023",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Radenko Ugrčić",
+          "email": "sosecanj@beotel.net",
+          "phone": "023",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Senta",
+      "contacts": [
+        {
+          "position": "predsednik opštine Rudolf",
+          "name": "Cegledi",
+          "email": "rudolf.cegledi@zenta-senta.co.rs",
+          "phone": "024/655-411",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Žofia Sabo Dekanj",
+          "email": "sabodz@zenta-senta.co.rs",
+          "phone": "024/655-406",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Edit Šarnjai Roža",
+          "email": "r.edit@zenta-senta.co.rs",
+          "phone": "024/655-404",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Šid",
+      "contacts": [
+        {
+          "position": "predsednik opštine Zoran",
+          "name": "Semenović",
+          "email": "semenoviczoran@gmail.com",
+          "phone": "kabinetsid@mts.gr",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Tihomir Stamenković",
+          "email": "tihomir.stamenkovic3@gmail.com",
+          "phone": "022",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Bojana Mravik",
+          "email": "vukovic.bojanna@gmail.com",
+          "phone": "nacelnik@sid.rs",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Sjenica",
+      "contacts": [
+        {
+          "position": "predsednik opštine Munib",
+          "name": "Mujagić",
+          "email": "munib.mujagic@sjenica.rs",
+          "phone": "020/741278",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Rejhan Kurtović",
+          "email": "rejhan.kurtovic@sjenica.rs",
+          "phone": "020/741278",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Nusret Nuhović",
+          "email": "nusret.nuhovic@sjenica.rs",
+          "phone": "020/741039",
+          "web": null
+        },
+        {
+          "position": "predsednik opštine Nikola",
+          "name": "Vučen",
+          "email": "sp.predsednistvo@gmail.com",
+          "phone": "026/316-001",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Petar Milić",
+          "email": "so@smederevskapalanka.rs",
+          "phone": "026/310-873",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Gordana Kostić",
+          "email": "nacelnikou@smederevskapalanka.rs",
+          "phone": "026/317-087",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Sokobanja",
+      "contacts": [
+        {
+          "position": "predsednik opštine Miodrag",
+          "name": "Nikolić",
+          "email": "predsednik@opstinasokobanja.com",
+          "phone": "018/830-615",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Vladan Petković",
+          "email": "v.petkovic@opstinasokobanja.com",
+          "phone": "018/830-155,",
+          "web": "lokal"
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Aleksandra Marković",
+          "email": "nacelnik@opstinasokobanja.com",
+          "phone": "018/830-155,",
+          "web": "lokal"
+        }
+      ]
+    },
+    {
+      "name": "Srbobran",
+      "contacts": [
+        {
+          "position": "predsednik opštine Radivoj",
+          "name": "Debeljački",
+          "email": "srbobran_sekretarica@eunet.rs",
+          "phone": "021/731-077",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Alargić Milena",
+          "email": "srbobran@eunet.rs",
+          "phone": "021/731-077",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Danijela Vujačić",
+          "email": "nacelnik@srbobran.rs",
+          "phone": "021/730-080",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Boban Petković",
+          "email": "bobanpetkovic3108@gmail.com",
+          "phone": "021/6853004",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Nataša Svirčev",
+          "email": "natasa.svircev@sremski-karlovci.org.rs",
+          "phone": "021/6853004",
+          "web": null
+        },
+        {
+          "position": "predsednik opštine Đorđe",
+          "name": "Radinović",
+          "email": "djordje.radinovic@starapazova.rs",
+          "phone": "022/310-170",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Natasa Eror Mićić",
+          "email": "natasa.eror.micic@starapazova.rs",
+          "phone": "022/310-170",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Zoran Uzelac",
+          "email": "zoran.uzelac@starapazova.rs",
+          "phone": "022/310-170",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Surdulica",
+      "contacts": [
+        {
+          "position": "predsednik opštine Aleksandra",
+          "name": "Popovic",
+          "email": "aleksandra.popovic@surdulica.rs",
+          "phone": "017",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Zoran Mitic",
+          "email": "zoran.mitic@surdulica.rs",
+          "phone": "017",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Jasmina Marković",
+          "email": "jasmina.markovic@surdulica.org.rs",
+          "phone": "017",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Svilajnac",
+      "contacts": [
+        {
+          "position": "predsednik opštine Predrag",
+          "name": "Milanović",
+          "email": "predsednik@svilajnac.rs",
+          "phone": "035/312-010",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Miroslav Marinković",
+          "email": "skupstina@svilajnac.rs",
+          "phone": "035/312-605",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Ivana Paunović",
+          "email": "nacelnik@svilajnac.rs",
+          "phone": "035/312-012",
+          "web": "(lokal"
+        }
+      ]
+    },
+    {
+      "name": "Svrljig",
+      "contacts": [
+        {
+          "position": "predsednik opštine Miroslav",
+          "name": "Marković",
+          "email": "miroslavmarkovic018@gmail.com",
+          "phone": "018/821104",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Milan Mihajlović",
+          "email": "mihajlovicmilan89@gmail.com",
+          "phone": "018/821104",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Dejana Mitić",
+          "email": "dejanamitic64@gmail.com",
+          "phone": "018/821018",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Temerin",
+      "contacts": [
+        {
+          "position": "predsednik opštine Mladen",
+          "name": "Zec",
+          "email": "predsednik@temerin.rs",
+          "phone": "021",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Robert Pastor",
+          "email": "pastorrobert67@gmail.com",
+          "phone": "021",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Boris Stanojević",
+          "email": "boris@temerin.rs",
+          "phone": "021",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Titel",
+      "contacts": [
+        {
+          "position": "predsednik opštine Dragan",
+          "name": "Bozic",
+          "email": "bozic@opstinatitel.rs",
+          "phone": "02960186",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Dragiša Trivunović",
+          "email": "uprava@opstinatitel.rs",
+          "phone": "02960186",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Sonja Pejakić",
+          "email": "spnja.pejakic.antic@opstinatitel.rs",
+          "phone": "02960186",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Topola",
+      "contacts": [
+        {
+          "position": "predsednik opštine Igor",
+          "name": "Petrovic",
+          "email": "predsednik@topola.com",
+          "phone": "034-6811-017",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Miodrag Milovanovic",
+          "email": "predsednikso@topola.com",
+          "phone": "034-6811-017",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Milica Stanisic",
+          "email": "nacelnik@topola.com",
+          "phone": "034-6811-698",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Trgovište",
+      "contacts": [
+        {
+          "position": "predsednik opštine Miljana",
+          "name": "Zlatković",
+          "email": "kabinetpredsednika@trgoviste.rs",
+          "phone": "017/452-710",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Aleksandar Kolić",
+          "email": "aleksandar.kolic@gmail.com",
+          "phone": "017/452-252",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Dragan Anđelović",
+          "email": "dragan.opstinatrgoviste@gmail.com",
+          "phone": "017/452-203",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Trstenik",
+      "contacts": [
+        {
+          "position": "predsednik opštine Milena",
+          "name": "Turk",
+          "email": "kabinet.ts@trstenik.rs",
+          "phone": "milena_turk@yahoo.com",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Gerasim Atanasković",
+          "email": "skupstina@trstenik.rs",
+          "phone": "037/714-598",
+          "web": "lok."
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Anđelka Trošić",
+          "email": "andjelka.trosic@trstenik.rs",
+          "phone": "037/712-643",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Tutin",
+      "contacts": [
+        {
+          "position": "predsednik opštine Salih",
+          "name": "Hot",
+          "email": "opstina@tutin.rs",
+          "phone": "020",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Fazila Berović",
+          "email": "fazila_1995@hotmail.com",
+          "phone": "020",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Adnan Šehović",
+          "email": "nacelnik.opstine.tutin@hotmail.com",
+          "phone": "020",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Ub",
+      "contacts": [
+        {
+          "position": "predsednik opštine Darko",
+          "name": "Glišić",
+          "email": "predsednik@opstinaub.org.rs",
+          "phone": "014/411-113",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Ivana Nikolić",
+          "email": "ivananikolicsf@gmail.com",
+          "phone": "014/411-113",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Marija Novaković",
+          "email": "nacelnikou@opstinuab.org.rs",
+          "phone": "014/411-113",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Varvarin",
+      "contacts": [
+        {
+          "position": "predsednik opštine Violeta",
+          "name": "Lutovac Đurđević",
+          "email": "lutovacvioleta@gmail.com,",
+          "phone": "opstina@varvarin.org,rs",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Vojkan Pavić",
+          "email": "vojkan.pavic@varvarin.org.rs",
+          "phone": "037/787171",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Slavica Radović",
+          "email": "slavicaradovic62@hotemail.gov",
+          "phone": "037/787171",
+          "web": null
+        },
+        {
+          "position": "predsednik opštine Igor",
+          "name": "Matković",
+          "email": "matkovicigor@yahoo.com",
+          "phone": "026/516-206",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Dušan Marić",
+          "email": "dusan.jojic.maric@gmail.com",
+          "phone": "026/516-206",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Goran Tasić",
+          "email": "opstaupravavp@gmail.com",
+          "phone": "026/516-206",
+          "web": null
+        },
+        {
+          "position": "predsednik opštine Dragan",
+          "name": "Milić",
+          "email": "office@velikogradiste.rs",
+          "phone": "012/662-124",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Vladimir Štrbac",
+          "email": "skupstina@velikogradiste.rs",
+          "phone": "012/662-249",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Sanja Stojadinović",
+          "email": "sanja.stojadinovic@velikogradiste.rs",
+          "phone": "012/662-124",
+          "web": null
+        },
+        {
+          "position": "predsednik opštine Goran",
+          "name": "Mladenović",
+          "email": "predsednikopstine@vladicinhan.org.rs",
+          "phone": "017-390-518",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Danijela Popović",
+          "email": "danijela.popovic111@gmail.com;",
+          "phone": "skupstiskasluzba@vladicinhan.org.rs",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Miloš Stojanović",
+          "email": "nacelnik@vladicinhan.org.rs",
+          "phone": "017-390-507",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Vladimirci",
+      "contacts": [
+        {
+          "position": "predsednik opštine Goran",
+          "name": "Zarić",
+          "email": "predsednikopstine@vladimirci.org.rs,",
+          "phone": null,
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Rade Kovačević",
+          "email": "predsednikso@vladimirci.org.rs",
+          "phone": "015/513144",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Slavica Mirković",
+          "email": "nacelnikuprave@vladimirci.org.rs",
+          "phone": "015/514713",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Vlasotince",
+      "contacts": [
+        {
+          "position": "predsednik opštine Bratislav",
+          "name": "Petrović",
+          "email": "predsednik@vlasotince.org.rs",
+          "phone": "016/875-122",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Milan Jović",
+          "email": "predsednikso@vlasotince.org.rs",
+          "phone": "016/875-122",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Marjan Stanković",
+          "email": "nacelnik@vlasotince.org.rs",
+          "phone": "016/875-122",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Vrbas",
+      "contacts": [
+        {
+          "position": "predsednik opštine Predrag",
+          "name": "Rojević",
+          "email": "predrag.rojevic@vrbas.net",
+          "phone": "021/7954097",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Sanja Žigić",
+          "email": "sanja.zigic@vrbas.net",
+          "phone": "021/7954099",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Ivana Krezović",
+          "email": "ivana.krezovic@vrbas.net",
+          "phone": "021/7954051",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Ivan Radović",
+          "email": "predsednik.so@vrnjackabanja.gov.rs",
+          "phone": "036",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Slaviša Paunović",
+          "email": "slavisa.paunovic@vrnjackabanja.gov.rs",
+          "phone": "036",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Žabalj",
+      "contacts": [
+        {
+          "position": "predsednik opštine Uroš",
+          "name": "Radanović",
+          "email": "uradanovic@gmail.com",
+          "phone": "021/2102288",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Radovan Čolić",
+          "email": "colicrade78@gmail.com",
+          "phone": "021/2102266",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Stevan Despotov",
+          "email": "nacelnik.zabalj@gmail.com",
+          "phone": "021/2102277",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Žabari",
+      "contacts": [
+        {
+          "position": "predsednik opštine Jovan",
+          "name": "Lukić",
+          "email": "jovan.lukic976@gmail.com",
+          "phone": "012/250-130",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Dejan Adamović",
+          "email": "adamovicdeki69@gmail.com",
+          "phone": "012/250-195",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Nebojša Milovanović",
+          "email": "n.milovanovic976@gmail.com",
+          "phone": "012/250-130",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Žagubica",
+      "contacts": [
+        {
+          "position": "predsednik opštine Safet",
+          "name": "Pavlović",
+          "email": "safetpavlovic@gmail.com",
+          "phone": "012/7643153",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Olivera Pauljeskić",
+          "email": "oliverapauljeskic@gmail.com",
+          "phone": "012/7643153",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Smederevka Buckić",
+          "email": "buckic.smederevka@gmail.com",
+          "phone": "012/7643153",
+          "web": null
+        }
+      ]
+    },
+    {
+      "name": "Žitište",
+      "contacts": [
+        {
+          "position": "predsednik opštine Mitar",
+          "name": "Vučurević",
+          "email": "zitiste.predsednik@gmail.com",
+          "phone": "023/3821-306",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Ivana Petrić",
+          "email": "skupstina.zitiste@gmail.com",
+          "phone": "023/3821-304",
+          "web": "lok"
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Mladen Ajduković",
+          "email": "zitiste.nacelnik@gmail.com",
+          "phone": "023/3821-050",
+          "web": "lok"
+        }
+      ]
+    },
+    {
+      "name": "Žitorađa",
+      "contacts": [
+        {
+          "position": "predsednik opštine Ivan",
+          "name": "Stanojević",
+          "email": "predsednik@zitoradja.org",
+          "phone": "027/8362",
+          "web": null
+        },
+        {
+          "position": "predsednik skupštine opštine",
+          "name": "Nebojša Stevanović",
+          "email": "skupstina@zitoradja.org",
+          "phone": "027/8362",
+          "web": null
+        },
+        {
+          "position": "načelnik opštinske uprave",
+          "name": "Marko Stošić",
+          "email": "ou.nacelnik@zitoradja.org",
+          "phone": "027/8362",
+          "web": null
         }
       ]
     }
   ]
 }
-
