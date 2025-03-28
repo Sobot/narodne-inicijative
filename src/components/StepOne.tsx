@@ -17,6 +17,22 @@ import AddIcon from '@mui/icons-material/Add';
 import { InitiativeData, CommitteeMember } from '@/types';
 import municipalities from '@/data/opstine.json';
 
+// Add Serbian alphabet mapping
+const serbianAlphabetMap: { [key: string]: string } = {
+  'а': 'a', 'б': 'b', 'в': 'v', 'г': 'g', 'д': 'd', 'ђ': 'đ', 'е': 'e', 'ж': 'ž',
+  'з': 'z', 'и': 'i', 'ј': 'j', 'к': 'k', 'л': 'l', 'љ': 'lj', 'м': 'm', 'н': 'n',
+  'њ': 'nj', 'о': 'o', 'п': 'p', 'р': 'r', 'с': 's', 'т': 't', 'ћ': 'ć', 'у': 'u',
+  'ф': 'f', 'х': 'h', 'ц': 'c', 'ч': 'č', 'џ': 'dž', 'ш': 'š',
+  'А': 'A', 'Б': 'B', 'В': 'V', 'Г': 'G', 'Д': 'D', 'Ђ': 'Đ', 'Е': 'E', 'Ж': 'Ž',
+  'З': 'Z', 'И': 'I', 'Ј': 'J', 'К': 'K', 'Л': 'L', 'Љ': 'Lj', 'М': 'M', 'Н': 'N',
+  'Њ': 'Nj', 'О': 'O', 'П': 'P', 'Р': 'R', 'С': 'S', 'Т': 'T', 'Ћ': 'Ć', 'У': 'U',
+  'Ф': 'F', 'Х': 'H', 'Ц': 'C', 'Ч': 'Č', 'Џ': 'Dž', 'Ш': 'Š'
+};
+
+function normalizeText(text: string): string {
+  return text.split('').map(char => serbianAlphabetMap[char] || char).join('');
+}
+
 interface StepOneProps {
   onNext: (data: InitiativeData) => void;
   initialData: InitiativeData;
@@ -44,11 +60,9 @@ export default function StepOne({ onNext, initialData }: StepOneProps) {
   };
 
   return (
-    <Box component="form" onSubmit={handleSubmit(onSubmit)}>
-      <Typography variant="body1" paragraph sx={{ mb: 3 }}>
-      Добродошли на платформу за грађанске иницијативе! Овде ћете пронаћи документацију, водиче за електронски потпис и алате за креирање грађанске иницијативе.</Typography>
-
-      <Typography variant="h6" gutterBottom>
+    <Box component="form" onSubmit={handleSubmit(onSubmit)}>     
+     <Typography variant="body1" paragraph sx={{ mb: 3 }}>Добродошли на платформу за грађанске иницијативе! Овде ћете пронаћи документацију, водиче за електронски потпис и алате за креирање грађанске иницијативе.</Typography>     
+     <Typography variant="h6" gutterBottom>
         Унесите податке о вашој иницијативи
       </Typography>
 
@@ -77,8 +91,14 @@ export default function StepOne({ onNext, initialData }: StepOneProps) {
 
         <Grid item xs={12}>
           <Autocomplete
-            options={municipalities}
+            options={[...municipalities].sort((a, b) => a.name.localeCompare(b.name))}
             getOptionLabel={(option) => option.name}
+            filterOptions={(options, { inputValue }) => {
+              const normalizedInput = normalizeText(inputValue.toLowerCase());
+              return options.filter(option => 
+                normalizeText(option.name.toLowerCase()).includes(normalizedInput)
+              );
+            }}
             renderInput={(params) => (
               <TextField
                 {...params}
