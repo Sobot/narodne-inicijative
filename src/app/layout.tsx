@@ -41,6 +41,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://narodne-inicijative.rs', // Add your actual domain
   },
+  metadataBase: new URL("https://narodne-inicijative.rs")
 };
 
 export default function RootLayout({
