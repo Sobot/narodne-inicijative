@@ -57,6 +57,7 @@ export default function StepTwo({ initiativeData }: StepTwoProps) {
 Молимо Вас да у складу са чланом 4. Уредбе о електронској народној, без одлагања, омогућите покретање поступка прикупљања електронских потписа на Порталу еУправа. 
 У Ћуприји, 
 27.12.2024 
+</p>
 Иницијативни одбор:
         
         
@@ -110,7 +111,7 @@ export default function StepTwo({ initiativeData }: StepTwoProps) {
       const opt:Options = {
         margin: 1,
         filename: filename,
-        image: { type: 'jpeg', quality: 0.98 },
+       // image: { type: 'jpeg', quality: 0.98 },
         html2canvas: { scale: 2 },
         jsPDF: { unit: 'in', format: 'a4', orientation: 'portrait' as const }
       };
