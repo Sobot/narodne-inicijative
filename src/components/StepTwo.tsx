@@ -33,7 +33,7 @@ export default function StepTwo({ initiativeData }: StepTwoProps) {
         <p>Датум: ${today}</p>
         <p>Назив иницијативе: ${initiativeData.name}</p>
         <p>Опис иницијативе:</p>
-        <p>${initiativeData.description}</p>
+        <div style="white-space: pre-line;">${initiativeData.description}</div>
         <p>Иницијативни одбор сачињавају:</p>
         <pre style="white-space: pre-wrap;">${committeeMembersList}</pre>
       </div>
