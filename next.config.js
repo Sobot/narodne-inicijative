@@ -4,8 +4,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: process.env.NODE_ENV === 'production' ? '/narodne-inicijative' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/narodne-inicijative/' : '',
+ // basePath: process.env.NODE_ENV === 'production' ? '/narodne-inicijative' : '',
+ // assetPrefix: process.env.NODE_ENV === 'production' ? '/narodne-inicijative/' : '',
   webpack: (config, { isServer }) => {
     if (!isServer) {
       config.resolve.fallback = {
@@ -19,4 +19,4 @@ const nextConfig = {
   },
 }
 
-module.exports = nextConfig 
+module.exports = nextConfig
