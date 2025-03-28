@@ -36,11 +36,13 @@ export default function StepOne({ onNext, initialData }: StepOneProps) {
   const [showLoadDialog, setShowLoadDialog] = useState(false);
   const [savedData, setSavedData] = useState<InitiativeData | null>(null);
   
-  const { register, handleSubmit, control, formState: { errors }, reset } = useForm<InitiativeData>({
+  const { register, handleSubmit, control, formState: { errors }, reset, watch } = useForm<InitiativeData>({
     defaultValues: initialData,
   });
 
-  const { fields, append, remove } = useFieldArray({
+  const currentMunicipality = watch('municipality');
+
+  const { fields, append, remove } = useFieldArray<InitiativeData>({
     control,
     name: "committeeMembers",
   });
@@ -125,6 +127,7 @@ export default function StepOne({ onNext, initialData }: StepOneProps) {
           <Autocomplete
             options={[...municipalities].sort((a, b) => a.name.localeCompare(b.name))}
             getOptionLabel={(option) => option.name}
+            value={municipalities.find(m => m.name === currentMunicipality) || null}
             filterOptions={(options, { inputValue }) => {
               const normalizedInput = normalizeText(inputValue.toLowerCase());
               return options.filter(option => 
