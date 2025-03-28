@@ -18,7 +18,7 @@ import {
 } from '@mui/material';
 import DeleteIcon from '@mui/icons-material/Delete';
 import AddIcon from '@mui/icons-material/Add';
-import { InitiativeData, CommitteeMember } from '@/types';
+import { InitiativeData } from '@/types';
 import municipalities from '@/data/opstine.json';
 import { transliterate } from 'transliteration';
 
