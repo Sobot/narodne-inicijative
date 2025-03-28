@@ -105,6 +105,7 @@ export default function StepOne({ onNext, initialData }: StepOneProps) {
           <TextField
             fullWidth
             label="Назив иницијативе"
+            InputLabelProps={{ shrink: true }}
             {...register('name', { required: 'Назив иницијативе је обавезан' })}
             error={!!errors.name}
             helperText={errors.name?.message}
@@ -117,6 +118,7 @@ export default function StepOne({ onNext, initialData }: StepOneProps) {
             multiline
             rows={4}
             label="Опис иницијативе"
+            InputLabelProps={{ shrink: true }}
             {...register('description', { required: 'Опис иницијативе је обавезан' })}
             error={!!errors.description}
             helperText={errors.description?.message}
