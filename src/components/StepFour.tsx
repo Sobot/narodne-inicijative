@@ -1,10 +1,11 @@
 'use client';
 
-import { Box, Typography, Paper, Button } from '@mui/material';
+import { Box, Typography, Paper, Button, List, ListItem, ListItemText, Divider } from '@mui/material';
 import EmailIcon from '@mui/icons-material/Email';
 import { InitiativeData } from '@/types';
 import { format } from 'date-fns';
 import { sr } from 'date-fns/locale';
+import * as municipalityUtils from '@/utils/municipalityContacts';
 
 interface StepFourProps {
   initiativeData: InitiativeData;
@@ -18,6 +19,10 @@ export default function StepFour({ initiativeData }: StepFourProps) {
         .map((member, index) => `${index + 1}. ${member.fullName}, ${member.address}`)
         .join('\n')
     : 'Нема унетих чланова иницијативног одбора';
+
+  const municipalityContacts = municipalityUtils.findMunicipalityContacts(initiativeData.municipality);
+  const presidentEmail = municipalityUtils.getPresidentEmail(municipalityContacts);
+  const otherContacts = municipalityUtils.getOtherContacts(municipalityContacts);
 
   const emailSubject = `Предлог за организовање јавне расправе - ${initiativeData?.name}`;
   const emailBody = `
@@ -40,7 +45,9 @@ ${initiativeData.committeeMembers.length > 0 ? initiativeData.committeeMembers[0
   `.trim();
 
   const handleCopyEmail = () => {
-    const emailContent = `mailto:?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
+    const to = presidentEmail ? `mailto:${presidentEmail}` : 'mailto:';
+    const cc = otherContacts.map(c => c.email).join(',');
+    const emailContent = `${to}?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}${cc ? `&cc=${encodeURIComponent(cc)}` : ''}`;
     window.location.href = emailContent;
   };
 
@@ -51,6 +58,30 @@ ${initiativeData.committeeMembers.length > 0 ? initiativeData.committeeMembers[0
       </Typography>
 
       <Paper sx={{ p: 3, mb: 3, backgroundColor: '#fafafa' }}>
+        <Typography variant="subtitle1" gutterBottom>
+          Контакти општине {initiativeData.municipality}:
+        </Typography>
+
+        <List>
+          {municipalityContacts.map((contact, index) => (
+            <ListItem key={index}>
+              <ListItemText
+                primary={contact.position}
+                secondary={
+                  <>
+                    {contact.name && <Typography component="span" variant="body2">{contact.name}<br /></Typography>}
+                    {contact.email && <Typography component="span" variant="body2">Email: {contact.email}<br /></Typography>}
+                    {contact.phone && <Typography component="span" variant="body2">Телефон: {contact.phone}<br /></Typography>}
+                    {contact.web && <Typography component="span" variant="body2">Локал: {contact.web}</Typography>}
+                  </>
+                }
+              />
+            </ListItem>
+          ))}
+        </List>
+
+        <Divider sx={{ my: 2 }} />
+
         <Typography variant="subtitle1" gutterBottom>
           Предмет е-поште:
         </Typography>
@@ -86,4 +117,4 @@ ${initiativeData.committeeMembers.length > 0 ? initiativeData.committeeMembers[0
       </Paper>
     </Box>
   );
-} 
+}
